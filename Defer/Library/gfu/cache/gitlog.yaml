@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2021-06-27T22:33:31.497+02:00
+  initializedAtString: 2021-06-27T22:13:47.571+02:00
+  log:
+  - commitID: ab11069cae4b3a0e45f7c10dc3e1d6f7d9366213
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Initial push
+    description: First steps
+    timeString: 2021-06-27T22:32:48.000+02:00
+    commitTimeString: 2021-06-27T22:32:48.000+02:00
+    changes:
+    - path: Defer\UserSettings\EditorUserSettings.asset
+      fullPath: H:\PracaInz\Defer\Defer\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 30d1b1fbad46d1a7b6c0c9a23047a7046ca00fde
+    mergeA: 
+    mergeB: 
+    authorName: perskii
+    authorEmail: hmllbm@gmail.com
+    commitEmail: hmllbm@gmail.com
+    commitName: perskii
+    summary: Update TODO.txt
+    description: 
+    timeString: 2021-06-27T22:01:39.000+02:00
+    commitTimeString: 2021-06-27T22:01:39.000+02:00
+    changes:
+    - path: TODO.txt
+      fullPath: H:\PracaInz\Defer\TODO.txt
+      projectPath: ..\TODO.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: f9d6b447021073c549ea94b6c69cb6e82a2c7836
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Create TODO.txt
+    description: 
+    timeString: 2021-06-27T21:59:10.000+02:00
+    commitTimeString: 2021-06-27T21:59:10.000+02:00
+    changes:
+    - path: TODO.txt
+      fullPath: H:\PracaInz\Defer\TODO.txt
+      projectPath: ..\TODO.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 32ff62937eccc9812ffa12e462a59ad3cd0c2749
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Update README.md
+    description: 
+    timeString: 2021-06-27T21:57:32.000+02:00
+    commitTimeString: 2021-06-27T21:57:32.000+02:00
+    changes:
+    - path: README.md
+      fullPath: H:\PracaInz\Defer\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 2d39422935a59b5cf636e983c9420879b683c15b
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: 
+    timeString: 2021-06-27T21:43:55.000+02:00
+    commitTimeString: 2021-06-27T21:43:55.000+02:00
+    changes:
+    - path: README.md
+      fullPath: H:\PracaInz\Defer\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
