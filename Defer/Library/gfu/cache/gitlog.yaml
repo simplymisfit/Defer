@@ -13,9 +13,123 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-06-27T22:46:31.686+02:00
-  initializedAtString: 2021-06-27T22:13:47.571+02:00
+  lastUpdatedAtString: 2021-06-27T23:10:21.038+02:00
+  initializedAtString: 2021-06-27T22:53:59.841+02:00
   log:
+  - commitID: 7ea362a97cd568e12df47cad6613f13746320e78
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Test push
+    description: 
+    timeString: 2021-06-27T23:08:23.000+02:00
+    commitTimeString: 2021-06-27T23:08:23.000+02:00
+    changes:
+    - path: Defer\Temp\UnityTempFile-eb346df30477e0a4096d0c27763f4fac
+      fullPath: H:\PracaInz\Defer\Defer\Temp\UnityTempFile-eb346df30477e0a4096d0c27763f4fac
+      projectPath: Temp\UnityTempFile-eb346df30477e0a4096d0c27763f4fac
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Temp\UnityTempFile-f256b3de83b6fff41895dd722c83eb32
+      fullPath: H:\PracaInz\Defer\Defer\Temp\UnityTempFile-f256b3de83b6fff41895dd722c83eb32
+      projectPath: Temp\UnityTempFile-f256b3de83b6fff41895dd722c83eb32
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Temp\UnityTempFile-f818af456f05c654abf6f865d12182d9
+      fullPath: H:\PracaInz\Defer\Defer\Temp\UnityTempFile-f818af456f05c654abf6f865d12182d9
+      projectPath: Temp\UnityTempFile-f818af456f05c654abf6f865d12182d9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Temp\UnityTempFile-fd10e41ca5f4bc84484d2a6890c99818
+      fullPath: H:\PracaInz\Defer\Defer\Temp\UnityTempFile-fd10e41ca5f4bc84484d2a6890c99818
+      projectPath: Temp\UnityTempFile-fd10e41ca5f4bc84484d2a6890c99818
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\UserSettings\AndroidLogcatSettings.asset
+      fullPath: H:\PracaInz\Defer\Defer\UserSettings\AndroidLogcatSettings.asset
+      projectPath: UserSettings\AndroidLogcatSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 26e36b07b2dc0d5d6f92f20be7ca0298ceabd23b
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Initial push unknown number
+    description: 
+    timeString: 2021-06-27T23:08:01.000+02:00
+    commitTimeString: 2021-06-27T23:08:01.000+02:00
+    changes:
+    - path: Unity.gitignore
+      fullPath: H:\PracaInz\Defer\Unity.gitignore
+      projectPath: ..\Unity.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: ef3b0728a6edb2ed1e7200c9b99ab18b47df2cf0
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Initial Unity Project
+    description: First steps
+    timeString: 2021-06-27T23:04:50.000+02:00
+    commitTimeString: 2021-06-27T23:04:50.000+02:00
+    changes:
+    - path: .gitignore.gitignore
+      fullPath: H:\PracaInz\Defer\.gitignore.gitignore
+      projectPath: ..\.gitignore.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: bc0d00835f94bcada11ccc87f2e9db78e4590664
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Initial push 7
+    description: 
+    timeString: 2021-06-27T22:46:47.000+02:00
+    commitTimeString: 2021-06-27T22:46:47.000+02:00
+    changes:
+    - path: Defer\Library\gfu\cache\branches.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitlog.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 93ccd2102e2b1b5dad6fb8392a8dbe2d7ca3da1f
     mergeA: 
     mergeB: 

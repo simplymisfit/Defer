@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637604213748318406
-    m_Hash: 2835981481
+      ticks: 637604239812402351
+    m_Hash: 263251266
   m_LockFileStatus:
     m_FilePath: H:/PracaInz/Defer/Defer/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637604213956816032
-    m_Hash: 1006205273
+      ticks: 637604239812402351
+    m_Hash: 1881105332
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
