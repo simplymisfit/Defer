@@ -13,9 +13,549 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-06-27T22:43:25.712+02:00
+  lastUpdatedAtString: 2021-06-27T22:45:39.119+02:00
   initializedAtString: 2021-06-27T22:13:47.571+02:00
   log:
+  - commitID: df292a2f562702d496823f4e5ed04059acbc45b8
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Initial push 5
+    description: 
+    timeString: 2021-06-27T22:44:50.000+02:00
+    commitTimeString: 2021-06-27T22:44:50.000+02:00
+    changes:
+    - path: Defer\Assets\Plugins\GitHub.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub.meta
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor.meta
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: ed86833975a4f862f76418f1033a20b295a70fbc
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Initial push 4
+    description: 
+    timeString: 2021-06-27T22:43:57.000+02:00
+    commitTimeString: 2021-06-27T22:43:57.000+02:00
+    changes:
+    - path: Defer\Library\gfu\cache\branches.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitlocks.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitlog.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\repoinfo.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Logs\Packages-Update.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\Packages-Update.log
+      projectPath: Logs\Packages-Update.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Packages\manifest.json
+      fullPath: H:\PracaInz\Defer\Defer\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Packages\packages-lock.json
+      fullPath: H:\PracaInz\Defer\Defer\Packages\packages-lock.json
+      projectPath: Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: 323419b4c7c191ee34cf02b01f952f473ae80c80
     mergeA: 
     mergeB: 
