@@ -13,9 +13,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-06-27T22:45:39.119+02:00
+  lastUpdatedAtString: 2021-06-27T22:46:31.686+02:00
   initializedAtString: 2021-06-27T22:13:47.571+02:00
   log:
+  - commitID: 93ccd2102e2b1b5dad6fb8392a8dbe2d7ca3da1f
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Initial push 6
+    description: 
+    timeString: 2021-06-27T22:45:57.000+02:00
+    commitTimeString: 2021-06-27T22:45:57.000+02:00
+    changes:
+    - path: Defer\Assets\Editor.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Editor.meta
+      projectPath: Assets\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Editor\com.unity.mobile.notifications.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Editor\com.unity.mobile.notifications.meta
+      projectPath: Assets\Editor\com.unity.mobile.notifications.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+      projectPath: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+      projectPath: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Plugins.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Plugins.meta
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Scenes.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Scenes.meta
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Scenes\SampleScene.unity
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Scenes\SampleScene.unity.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Scenes\SampleScene.unity.meta
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\branches.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitlocks.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitlog.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\repoinfo.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: df292a2f562702d496823f4e5ed04059acbc45b8
     mergeA: 
     mergeB: 
