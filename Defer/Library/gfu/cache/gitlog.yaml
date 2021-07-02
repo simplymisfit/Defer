@@ -13,9 +13,939 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2021-06-27T23:10:21.038+02:00
-  initializedAtString: 2021-06-27T22:53:59.841+02:00
+  lastUpdatedAtString: 2021-07-02T21:03:14.997+02:00
+  initializedAtString: 2021-07-02T20:02:23.384+02:00
   log:
+  - commitID: 6fd773ce7124619a92784cd250297dbde9ddd3c3
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Filip push
+    description: 
+    timeString: 2021-06-27T23:19:33.000+02:00
+    commitTimeString: 2021-06-27T23:19:33.000+02:00
+    changes:
+    - path: Defer\Assets\Defer.unity
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Defer.unity
+      projectPath: Assets\Defer.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\APIUpdater\project-dependencies.graph
+      fullPath: H:\PracaInz\Defer\Defer\Library\APIUpdater\project-dependencies.graph
+      projectPath: Library\APIUpdater\project-dependencies.graph
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ArtifactDB
+      fullPath: H:\PracaInz\Defer\Defer\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\CurrentLayout-default.dwlt
+      fullPath: H:\PracaInz\Defer\Defer\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\PackageManager\ProjectCache
+      fullPath: H:\PracaInz\Defer\Defer\Library\PackageManager\ProjectCache
+      projectPath: Library\PackageManager\ProjectCache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\PackageManager\ProjectCache.md5
+      fullPath: H:\PracaInz\Defer\Defer\Library\PackageManager\ProjectCache.md5
+      projectPath: Library\PackageManager\ProjectCache.md5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\SceneVisibilityState.asset
+      fullPath: H:\PracaInz\Defer\Defer\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.Android.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.Android.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.Android.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.Android.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.dll
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.iOS.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Timeline.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Timeline.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEditor.UI.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEditor.UI.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEditor.UI.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEditor.UI.pdb
+      projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEngine.UI.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEngine.UI.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEngine.UI.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEngine.UI.pdb
+      projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\EditorEncounteredVariants
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\SourceAssetDB
+      fullPath: H:\PracaInz\Defer\Defer\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitlocks.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\repoinfo.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: b2cf796d5f8ae47edb10777856e694854b1e8afa
+    mergeA: 
+    mergeB: 
+    authorName: perskii
+    authorEmail: hmllbm@gmail.com
+    commitEmail: hmllbm@gmail.com
+    commitName: perskii
+    summary: test damian
+    description: test damian
+    timeString: 2021-06-27T23:17:19.000+02:00
+    commitTimeString: 2021-06-27T23:17:19.000+02:00
+    changes:
+    - path: Defer\Assets\Defer.unity
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Defer.unity
+      projectPath: Assets\Defer.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Assets\Defer.unity.meta
+      fullPath: H:\PracaInz\Defer\Defer\Assets\Defer.unity.meta
+      projectPath: Assets\Defer.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\APIUpdater\project-dependencies.graph
+      fullPath: H:\PracaInz\Defer\Defer\Library\APIUpdater\project-dependencies.graph
+      projectPath: Library\APIUpdater\project-dependencies.graph
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ArtifactDB
+      fullPath: H:\PracaInz\Defer\Defer\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      fullPath: H:\PracaInz\Defer\Defer\Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      projectPath: Library\Artifacts\1f\1fe54318fe85aeab159f1a8b425c1aa5
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Defer\Library\Artifacts\3f\3f2f7bc4122dd92424cd7c744f58768b
+      fullPath: H:\PracaInz\Defer\Defer\Library\Artifacts\3f\3f2f7bc4122dd92424cd7c744f58768b
+      projectPath: Library\Artifacts\3f\3f2f7bc4122dd92424cd7c744f58768b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\Artifacts\46\46b35aeb15e30b642d1a550d9aadf6b0
+      fullPath: H:\PracaInz\Defer\Defer\Library\Artifacts\46\46b35aeb15e30b642d1a550d9aadf6b0
+      projectPath: Library\Artifacts\46\46b35aeb15e30b642d1a550d9aadf6b0
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\Artifacts\87\870462c490e8f8ebd50893d0e04b1ecd
+      fullPath: H:\PracaInz\Defer\Defer\Library\Artifacts\87\870462c490e8f8ebd50893d0e04b1ecd
+      projectPath: Library\Artifacts\87\870462c490e8f8ebd50893d0e04b1ecd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\Artifacts\8e\8e97e412d63895951cb8ed83489949b7
+      fullPath: H:\PracaInz\Defer\Defer\Library\Artifacts\8e\8e97e412d63895951cb8ed83489949b7
+      projectPath: Library\Artifacts\8e\8e97e412d63895951cb8ed83489949b7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      fullPath: H:\PracaInz\Defer\Defer\Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      projectPath: Library\Artifacts\bd\bd3b3e5efd1936c5316dab4dc453bbb0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Defer\Library\CurrentLayout-default.dwlt
+      fullPath: H:\PracaInz\Defer\Defer\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\LastSceneManagerSetup.txt
+      fullPath: H:\PracaInz\Defer\Defer\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\PackageManager\ProjectCache
+      fullPath: H:\PracaInz\Defer\Defer\Library\PackageManager\ProjectCache
+      projectPath: Library\PackageManager\ProjectCache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\PackageManager\ProjectCache.md5
+      fullPath: H:\PracaInz\Defer\Defer\Library\PackageManager\ProjectCache.md5
+      projectPath: Library\PackageManager\ProjectCache.md5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\SceneVisibilityState.asset
+      fullPath: H:\PracaInz\Defer\Defer\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.Android.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.Android.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.Android.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.Android.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.dll
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.iOS.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Notifications.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Notifications.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Timeline.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.Timeline.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEditor.UI.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEditor.UI.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEditor.UI.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEditor.UI.pdb
+      projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEngine.UI.dll
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEngine.UI.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ScriptAssemblies\UnityEngine.UI.pdb
+      fullPath: H:\PracaInz\Defer\Defer\Library\ScriptAssemblies\UnityEngine.UI.pdb
+      projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\1\1572fcbfb8dddd03e637fd057cd55b5f.bin
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\1\1572fcbfb8dddd03e637fd057cd55b5f.bin
+      projectPath: Library\ShaderCache\1\1572fcbfb8dddd03e637fd057cd55b5f.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\1\1d182d52340a80f74d100b289ac16329.bin
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\1\1d182d52340a80f74d100b289ac16329.bin
+      projectPath: Library\ShaderCache\1\1d182d52340a80f74d100b289ac16329.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\3\3118a0e2de2134d446eef9f53dd20171.bin
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\3\3118a0e2de2134d446eef9f53dd20171.bin
+      projectPath: Library\ShaderCache\3\3118a0e2de2134d446eef9f53dd20171.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\5\504681ba269879846b48f48bb43f8965.bin
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\5\504681ba269879846b48f48bb43f8965.bin
+      projectPath: Library\ShaderCache\5\504681ba269879846b48f48bb43f8965.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\5\521927202dcd224af16640df09df83df.bin
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\5\521927202dcd224af16640df09df83df.bin
+      projectPath: Library\ShaderCache\5\521927202dcd224af16640df09df83df.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\5\55cc6a9b4dce288cccc1d1d4cd4f017f.bin
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\5\55cc6a9b4dce288cccc1d1d4cd4f017f.bin
+      projectPath: Library\ShaderCache\5\55cc6a9b4dce288cccc1d1d4cd4f017f.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\8\8fb6bac1ac3237ded65fd960bcf4e49e.bin
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\8\8fb6bac1ac3237ded65fd960bcf4e49e.bin
+      projectPath: Library\ShaderCache\8\8fb6bac1ac3237ded65fd960bcf4e49e.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\EditorEncounteredVariants
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\d\d39ef83d3b22e270461597685392cc86.bin
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\d\d39ef83d3b22e270461597685392cc86.bin
+      projectPath: Library\ShaderCache\d\d39ef83d3b22e270461597685392cc86.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\d\d72e51604f51e729cd00eaba1983282b.bin
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\d\d72e51604f51e729cd00eaba1983282b.bin
+      projectPath: Library\ShaderCache\d\d72e51604f51e729cd00eaba1983282b.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\ShaderCache\f\f7dc9cddf9f1d8ada5c049327b288bcf.bin
+      fullPath: H:\PracaInz\Defer\Defer\Library\ShaderCache\f\f7dc9cddf9f1d8ada5c049327b288bcf.bin
+      projectPath: Library\ShaderCache\f\f7dc9cddf9f1d8ada5c049327b288bcf.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\SourceAssetDB
+      fullPath: H:\PracaInz\Defer\Defer\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitlocks.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\repoinfo.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe4.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: b32e90a690a9ff38a978469e0d9f95d636f4fc63
+    mergeA: 
+    mergeB: 
+    authorName: msft
+    authorEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitEmail: 63207978+simplymisfit@users.noreply.github.com
+    commitName: msft
+    summary: Push test
+    description: 
+    timeString: 2021-06-27T23:10:44.000+02:00
+    commitTimeString: 2021-06-27T23:10:44.000+02:00
+    changes:
+    - path: .gitignore.gitignore
+      fullPath: H:\PracaInz\Defer\.gitignore.gitignore
+      projectPath: ..\.gitignore.gitignore
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Defer\Library\ArtifactDB
+      fullPath: H:\PracaInz\Defer\Defer\Library\ArtifactDB
+      projectPath: Library\ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\CurrentLayout-default.dwlt
+      fullPath: H:\PracaInz\Defer\Defer\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\EditorInstance.json
+      fullPath: H:\PracaInz\Defer\Defer\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Defer\Library\EditorUserBuildSettings.asset
+      fullPath: H:\PracaInz\Defer\Defer\Library\EditorUserBuildSettings.asset
+      projectPath: Library\EditorUserBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\LastSceneManagerSetup.txt
+      fullPath: H:\PracaInz\Defer\Defer\Library\LastSceneManagerSetup.txt
+      projectPath: Library\LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\PackageManager\ProjectCache
+      fullPath: H:\PracaInz\Defer\Defer\Library\PackageManager\ProjectCache
+      projectPath: Library\PackageManager\ProjectCache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\PackageManager\ProjectCache.md5
+      fullPath: H:\PracaInz\Defer\Defer\Library\PackageManager\ProjectCache.md5
+      projectPath: Library\PackageManager\ProjectCache.md5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\SourceAssetDB
+      fullPath: H:\PracaInz\Defer\Defer\Library\SourceAssetDB
+      projectPath: Library\SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      fullPath: H:\PracaInz\Defer\Defer\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\expandedItems
+      fullPath: H:\PracaInz\Defer\Defer\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\branches.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitlocks.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitlog.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gitstatusentries.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Library\gfu\cache\repoinfo.yaml
+      fullPath: H:\PracaInz\Defer\Defer\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: H:\PracaInz\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Defer\ProjectSettings\TimelineSettings.asset
+      fullPath: H:\PracaInz\Defer\Defer\ProjectSettings\TimelineSettings.asset
+      projectPath: ProjectSettings\TimelineSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Defer\Temp\UnityTempFile-eb346df30477e0a4096d0c27763f4fac
+      fullPath: H:\PracaInz\Defer\Defer\Temp\UnityTempFile-eb346df30477e0a4096d0c27763f4fac
+      projectPath: Temp\UnityTempFile-eb346df30477e0a4096d0c27763f4fac
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Defer\Temp\UnityTempFile-f256b3de83b6fff41895dd722c83eb32
+      fullPath: H:\PracaInz\Defer\Defer\Temp\UnityTempFile-f256b3de83b6fff41895dd722c83eb32
+      projectPath: Temp\UnityTempFile-f256b3de83b6fff41895dd722c83eb32
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Defer\Temp\UnityTempFile-f818af456f05c654abf6f865d12182d9
+      fullPath: H:\PracaInz\Defer\Defer\Temp\UnityTempFile-f818af456f05c654abf6f865d12182d9
+      projectPath: Temp\UnityTempFile-f818af456f05c654abf6f865d12182d9
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Defer\Temp\UnityTempFile-fd10e41ca5f4bc84484d2a6890c99818
+      fullPath: H:\PracaInz\Defer\Defer\Temp\UnityTempFile-fd10e41ca5f4bc84484d2a6890c99818
+      projectPath: Temp\UnityTempFile-fd10e41ca5f4bc84484d2a6890c99818
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
   - commitID: 7ea362a97cd568e12df47cad6613f13746320e78
     mergeA: 
     mergeB: 
