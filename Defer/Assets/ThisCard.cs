@@ -22,6 +22,10 @@ public class ThisCard : MonoBehaviour
     public Text healthText;
     public Text descriptionText;
 
+    public Sprite thisSprite;
+    public Image thatImage;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,10 +42,15 @@ public class ThisCard : MonoBehaviour
         health = thisCard[0].health;
         cardDescription = thisCard[0].cardDescription;
 
+        thisSprite = thisCard[0].thisImage;
+
         nameText.text = "" + cardName;
         costText.text = "" + cost;
         attackText.text = "" + attack;
         healthText.text = "" + health;
         descriptionText.text = "" + descriptionText;
+
+
+        thatImage.sprite = thisSprite;
     }
 }

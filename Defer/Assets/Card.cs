@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class Card : MonoBehaviour
@@ -12,9 +13,12 @@ public class Card : MonoBehaviour
     public int health;
     public string cardDescription;
 
+    
+    public Sprite thisImage;
+
     public Card() { }
 
-    public Card(int Id, string CardName, int Cost, int Attack, int Health, string CardDescription)
+    public Card(int Id, string CardName, int Cost, int Attack, int Health, string CardDescription, Sprite ThisImage)
     {
         id = Id;
         cardName = CardName;
@@ -22,5 +26,7 @@ public class Card : MonoBehaviour
         attack = Attack;
         health = Health;
         cardDescription = CardDescription;
+
+        thisImage = ThisImage;
     }
 }
