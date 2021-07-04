@@ -25,6 +25,7 @@ public class ThisCard : MonoBehaviour
     public Sprite thisSprite;
     public Image thatImage;
 
+    public Image frame;
 
     // Start is called before the first frame update
     void Start()
@@ -52,5 +53,23 @@ public class ThisCard : MonoBehaviour
 
 
         thatImage.sprite = thisSprite;
+
+        if(thisCard[0].color == "Red")
+        {
+            frame.GetComponent<Image>().color = new Color32(242, 110, 92, 255);
+        }
+        if (thisCard[0].color == "Blue")
+        {
+            frame.GetComponent<Image>().color = new Color32(66, 135, 245, 255);
+        }
+        if (thisCard[0].color == "Yellow")
+        {
+            frame.GetComponent<Image>().color = new Color32(232, 216, 114, 255);
+        }
+        if (thisCard[0].color == "Purple")
+        {
+            frame.GetComponent<Image>().color = new Color32(169, 103, 235, 255);
+        }
+
     }
 }
