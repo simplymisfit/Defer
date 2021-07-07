@@ -13,396 +13,1344 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-07-07T10:25:18.961+02:00
-  initializedAtString: 2021-07-07T09:32:34.360+02:00
+  lastUpdatedAtString: 2021-07-07T18:55:07.524+02:00
+  initializedAtString: 2021-07-07T18:55:07.524+02:00
   entries:
+  - path: Defer\Assets\Card.prefab
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Card.prefab
+    projectPath: Assets\Card.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Assets\Card.prefab.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Card.prefab.meta
+    projectPath: Assets\Card.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Defer\Assets\Defer.unity
-    fullPath: F:\Defer\GitHub\Defer\Defer\Assets\Defer.unity
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Defer.unity
     projectPath: Assets\Defer.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Defer\Assets\Resources\CardBack.png
-    fullPath: F:\Defer\GitHub\Defer\Defer\Assets\Resources\CardBack.png
-    projectPath: Assets\Resources\CardBack.png
+  - path: Defer\Assets\Defer.unity.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Defer.unity.meta
+    projectPath: Assets\Defer.unity.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Editor.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Editor.meta
+    projectPath: Assets\Editor.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Editor\com.unity.mobile.notifications.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Editor\com.unity.mobile.notifications.meta
+    projectPath: Assets\Editor\com.unity.mobile.notifications.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+    projectPath: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+    projectPath: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins.meta
+    projectPath: Assets\Plugins.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub.meta
+    projectPath: Assets\Plugins\GitHub.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor.meta
+    projectPath: Assets\Plugins\GitHub\Editor.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    projectPath: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\credits.txt
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\credits.txt
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\credits.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\eula.txt
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\eula.txt
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\eula.txt.meta
+    projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.mdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.pdb.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    projectPath: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\x64.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\x64.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\x86.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\x86.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Assets\Resources\CardBack.png.meta
-    fullPath: F:\Defer\GitHub\Defer\Defer\Assets\Resources\CardBack.png.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Resources\CardBack.png.meta
     projectPath: Assets\Resources\CardBack.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Defer\Assets\Resources\CardBackPNG.png
-    fullPath: F:\Defer\GitHub\Defer\Defer\Assets\Resources\CardBackPNG.png
-    projectPath: Assets\Resources\CardBackPNG.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Assets\Resources\CardBackPNG.png.meta
-    fullPath: F:\Defer\GitHub\Defer\Defer\Assets\Resources\CardBackPNG.png.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Resources\CardBackPNG.png.meta
     projectPath: Assets\Resources\CardBackPNG.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Defer\Assets\Resources\CardBackPNG2.png
-    fullPath: F:\Defer\GitHub\Defer\Defer\Assets\Resources\CardBackPNG2.png
-    projectPath: Assets\Resources\CardBackPNG2.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Assets\Resources\CardBackPNG2.png.meta
-    fullPath: F:\Defer\GitHub\Defer\Defer\Assets\Resources\CardBackPNG2.png.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Resources\CardBackPNG2.png.meta
     projectPath: Assets\Resources\CardBackPNG2.png.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Scenes.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scenes.meta
+    projectPath: Assets\Scenes.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Scenes\SampleScene.unity
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Scenes\SampleScene.unity.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scenes\SampleScene.unity.meta
+    projectPath: Assets\Scenes\SampleScene.unity.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Scripts.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts.meta
+    projectPath: Assets\Scripts.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Scripts\Card.cs
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts\Card.cs
+    projectPath: Assets\Scripts\Card.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Scripts\Card.cs.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts\Card.cs.meta
+    projectPath: Assets\Scripts\Card.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Assets\Scripts\CardBack.cs
-    fullPath: F:\Defer\GitHub\Defer\Defer\Assets\Scripts\CardBack.cs
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts\CardBack.cs
     projectPath: Assets\Scripts\CardBack.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Assets\Scripts\CardBack.cs.meta
-    fullPath: F:\Defer\GitHub\Defer\Defer\Assets\Scripts\CardBack.cs.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts\CardBack.cs.meta
     projectPath: Assets\Scripts\CardBack.cs.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Scripts\CardDatabase.cs
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts\CardDatabase.cs
+    projectPath: Assets\Scripts\CardDatabase.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Scripts\CardDatabase.cs.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts\CardDatabase.cs.meta
+    projectPath: Assets\Scripts\CardDatabase.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Scripts\PlayerDeck.cs
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts\PlayerDeck.cs
+    projectPath: Assets\Scripts\PlayerDeck.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Assets\Scripts\PlayerDeck.cs.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts\PlayerDeck.cs.meta
+    projectPath: Assets\Scripts\PlayerDeck.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Assets\Scripts\ThisCard.cs
-    fullPath: F:\Defer\GitHub\Defer\Defer\Assets\Scripts\ThisCard.cs
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts\ThisCard.cs
     projectPath: Assets\Scripts\ThisCard.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Defer\Assets\Scripts\ThisCard.cs.meta
+    fullPath: E:\inzynierka\Defer\Defer\Assets\Scripts\ThisCard.cs.meta
+    projectPath: Assets\Scripts\ThisCard.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\APIUpdater\project-dependencies.graph
+    fullPath: E:\inzynierka\Defer\Defer\Library\APIUpdater\project-dependencies.graph
+    projectPath: Library\APIUpdater\project-dependencies.graph
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Library\ArtifactDB
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\ArtifactDB
+    fullPath: E:\inzynierka\Defer\Defer\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Defer\Library\ArtifactDB-lock
+    fullPath: E:\inzynierka\Defer\Defer\Library\ArtifactDB-lock
+    projectPath: Library\ArtifactDB-lock
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Library\Artifacts\1a\1a7f00c0c001b22c7a819bcee85ab8bd
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\1a\1a7f00c0c001b22c7a819bcee85ab8bd
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\1a\1a7f00c0c001b22c7a819bcee85ab8bd
     projectPath: Library\Artifacts\1a\1a7f00c0c001b22c7a819bcee85ab8bd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Defer\Library\Artifacts\20\20c9d8488c06248e5ce0ac392bb57010
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\20\20c9d8488c06248e5ce0ac392bb57010
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\20\20c9d8488c06248e5ce0ac392bb57010
     projectPath: Library\Artifacts\20\20c9d8488c06248e5ce0ac392bb57010
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Defer\Library\Artifacts\25\2503d86905671206c43836b996d1436f
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\25\2503d86905671206c43836b996d1436f
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\25\2503d86905671206c43836b996d1436f
     projectPath: Library\Artifacts\25\2503d86905671206c43836b996d1436f
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Defer\Library\Artifacts\38\38a221faeaf55aab958d60642ac2bc41
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\38\38a221faeaf55aab958d60642ac2bc41
-    projectPath: Library\Artifacts\38\38a221faeaf55aab958d60642ac2bc41
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Defer\Library\Artifacts\3f\3fde39a0ac32981cd308c39f571c105a
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\3f\3fde39a0ac32981cd308c39f571c105a
+    projectPath: Library\Artifacts\3f\3fde39a0ac32981cd308c39f571c105a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Library\Artifacts\4e\4ec187210dcd7d1ec863f43c2c37d3a0
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\4e\4ec187210dcd7d1ec863f43c2c37d3a0
-    projectPath: Library\Artifacts\4e\4ec187210dcd7d1ec863f43c2c37d3a0
+  - path: Defer\Library\Artifacts\41\41fab03e1dd3569f3ac998c7df952775
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\41\41fab03e1dd3569f3ac998c7df952775
+    projectPath: Library\Artifacts\41\41fab03e1dd3569f3ac998c7df952775
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Library\Artifacts\51\5121dcc0830f99dab8d734d2f11c04ba
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\51\5121dcc0830f99dab8d734d2f11c04ba
-    projectPath: Library\Artifacts\51\5121dcc0830f99dab8d734d2f11c04ba
+  - path: Defer\Library\Artifacts\58\587684a1a6b17580dda55ea510dbf0ba
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\58\587684a1a6b17580dda55ea510dbf0ba
+    projectPath: Library\Artifacts\58\587684a1a6b17580dda55ea510dbf0ba
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Library\Artifacts\66\6666d25036b7dca6a872c70cd674850b
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\66\6666d25036b7dca6a872c70cd674850b
-    projectPath: Library\Artifacts\66\6666d25036b7dca6a872c70cd674850b
+  - path: Defer\Library\Artifacts\64\648bf25c134bfdddd1ee952fb7f00585
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\64\648bf25c134bfdddd1ee952fb7f00585
+    projectPath: Library\Artifacts\64\648bf25c134bfdddd1ee952fb7f00585
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Library\Artifacts\70\709532264c0aa2ebb0668aba21061412
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\70\709532264c0aa2ebb0668aba21061412
-    projectPath: Library\Artifacts\70\709532264c0aa2ebb0668aba21061412
+  - path: Defer\Library\Artifacts\68\68a753424c8e4da0ce9c656fa1086ebd
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\68\68a753424c8e4da0ce9c656fa1086ebd
+    projectPath: Library\Artifacts\68\68a753424c8e4da0ce9c656fa1086ebd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Library\Artifacts\89\8987fe95282ca32b01f3336cdad21f8c
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\89\8987fe95282ca32b01f3336cdad21f8c
-    projectPath: Library\Artifacts\89\8987fe95282ca32b01f3336cdad21f8c
+  - path: Defer\Library\Artifacts\72\7209247ad42a0b5f608abcf83829b8aa
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\72\7209247ad42a0b5f608abcf83829b8aa
+    projectPath: Library\Artifacts\72\7209247ad42a0b5f608abcf83829b8aa
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Defer\Library\Artifacts\9b\9b9a6c32ea978e3b519a277d882d2092
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\9b\9b9a6c32ea978e3b519a277d882d2092
+    projectPath: Library\Artifacts\9b\9b9a6c32ea978e3b519a277d882d2092
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Library\Artifacts\9f\9f54c81aba09ffb92dd1a8db083bdb4b
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\9f\9f54c81aba09ffb92dd1a8db083bdb4b
+    projectPath: Library\Artifacts\9f\9f54c81aba09ffb92dd1a8db083bdb4b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Defer\Library\Artifacts\a1\a1ff5adc8979966bf4ed14fc0561c25c
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\a1\a1ff5adc8979966bf4ed14fc0561c25c
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\a1\a1ff5adc8979966bf4ed14fc0561c25c
     projectPath: Library\Artifacts\a1\a1ff5adc8979966bf4ed14fc0561c25c
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Defer\Library\Artifacts\b9\b95a184bef193487df6aebbe0057769a
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\b9\b95a184bef193487df6aebbe0057769a
-    projectPath: Library\Artifacts\b9\b95a184bef193487df6aebbe0057769a
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Defer\Library\Artifacts\ab\ab51ea53c565b0ad432c12cf8c891b92
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\ab\ab51ea53c565b0ad432c12cf8c891b92
+    projectPath: Library\Artifacts\ab\ab51ea53c565b0ad432c12cf8c891b92
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Defer\Library\Artifacts\bc\bc730c6244f5f01d1bcbd081fdeecca0
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\bc\bc730c6244f5f01d1bcbd081fdeecca0
+    projectPath: Library\Artifacts\bc\bc730c6244f5f01d1bcbd081fdeecca0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Library\Artifacts\d6\d6289b0c4d0c2d9f26a4f42884496906
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\d6\d6289b0c4d0c2d9f26a4f42884496906
-    projectPath: Library\Artifacts\d6\d6289b0c4d0c2d9f26a4f42884496906
+  - path: Defer\Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    projectPath: Library\Artifacts\d4\d4fb3aa8cbd333f813d6376b2be87c5a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
+    projectPath: Library\Artifacts\e0\e0b88e15d747efc77a6237a7e1877d01
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Defer\Library\Artifacts\e5\e56628cb507e8952d412b3891c7c07cb
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\e5\e56628cb507e8952d412b3891c7c07cb
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\e5\e56628cb507e8952d412b3891c7c07cb
     projectPath: Library\Artifacts\e5\e56628cb507e8952d412b3891c7c07cb
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Defer\Library\Artifacts\e6\e625ae11875e990520c4146db11e0882
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\e6\e625ae11875e990520c4146db11e0882
-    projectPath: Library\Artifacts\e6\e625ae11875e990520c4146db11e0882
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Defer\Library\Artifacts\ff\ffd8914e0ccda982a0c31023555f979d
+    fullPath: E:\inzynierka\Defer\Defer\Library\Artifacts\ff\ffd8914e0ccda982a0c31023555f979d
+    projectPath: Library\Artifacts\ff\ffd8914e0ccda982a0c31023555f979d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Library\Artifacts\eb\eb129055e619bd3b9d88bf86b2b02b3a
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\eb\eb129055e619bd3b9d88bf86b2b02b3a
-    projectPath: Library\Artifacts\eb\eb129055e619bd3b9d88bf86b2b02b3a
+  - path: Defer\Library\CurrentLayout-default.dwlt
+    fullPath: E:\inzynierka\Defer\Defer\Library\CurrentLayout-default.dwlt
+    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Defer\Library\Artifacts\f5\f56f71cb7aa9eebf76b670290ad70e28
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\f5\f56f71cb7aa9eebf76b670290ad70e28
-    projectPath: Library\Artifacts\f5\f56f71cb7aa9eebf76b670290ad70e28
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Defer\Library\Artifacts\fa\fa8f76ab7117428bbe972d3d586ecf4f
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\Artifacts\fa\fa8f76ab7117428bbe972d3d586ecf4f
-    projectPath: Library\Artifacts\fa\fa8f76ab7117428bbe972d3d586ecf4f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Library\EditorInstance.json
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\EditorInstance.json
+    fullPath: E:\inzynierka\Defer\Defer\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Defer\Library\gfu\cache\branches.yaml
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\gfu\cache\branches.yaml
+    fullPath: E:\inzynierka\Defer\Defer\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Defer\Library\gfu\cache\gitlocks.yaml
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\gfu\cache\gitlocks.yaml
+    fullPath: E:\inzynierka\Defer\Defer\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Defer\Library\gfu\cache\gitlog.yaml
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\gfu\cache\gitlog.yaml
+    fullPath: E:\inzynierka\Defer\Defer\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Defer\Library\gfu\cache\gitstatusentries.yaml
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: E:\inzynierka\Defer\Defer\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Defer\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: E:\inzynierka\Defer\Defer\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Defer\Library\gfu\cache\gituser.yaml
+    fullPath: E:\inzynierka\Defer\Defer\Library\gfu\cache\gituser.yaml
+    projectPath: Library\gfu\cache\gituser.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Library\gfu\cache\repoinfo.yaml
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\gfu\cache\repoinfo.yaml
+    fullPath: E:\inzynierka\Defer\Defer\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Defer\Library\LibraryFormatVersion.txt
+    fullPath: E:\inzynierka\Defer\Defer\Library\LibraryFormatVersion.txt
+    projectPath: Library\LibraryFormatVersion.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Library\PackageManager\ProjectCache
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\PackageManager\ProjectCache
+    fullPath: E:\inzynierka\Defer\Defer\Library\PackageManager\ProjectCache
     projectPath: Library\PackageManager\ProjectCache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Defer\Library\PackageManager\ProjectCache.md5
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\PackageManager\ProjectCache.md5
+    fullPath: E:\inzynierka\Defer\Defer\Library\PackageManager\ProjectCache.md5
     projectPath: Library\PackageManager\ProjectCache.md5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Defer\Library\SceneVisibilityState.asset
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\SceneVisibilityState.asset
+    fullPath: E:\inzynierka\Defer\Defer\Library\SceneVisibilityState.asset
     projectPath: Library\SceneVisibilityState.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Defer\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Defer\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Assembly-CSharp.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Mobile.AndroidLogcat.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.Android.dll
+    projectPath: Library\ScriptAssemblies\Unity.Notifications.Android.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Notifications.Android.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.Android.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Notifications.Android.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Notifications.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.dll
+    projectPath: Library\ScriptAssemblies\Unity.Notifications.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+    projectPath: Library\ScriptAssemblies\Unity.Notifications.iOS.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.iOS.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Notifications.iOS.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Notifications.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Notifications.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Notifications.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.PlasticSCM.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.Timeline.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.Timeline.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\UnityEditor.UI.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\UnityEditor.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Library\ScriptAssemblies\UnityEngine.UI.pdb
+    fullPath: E:\inzynierka\Defer\Defer\Library\ScriptAssemblies\UnityEngine.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Library\SourceAssetDB
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\SourceAssetDB
+    fullPath: E:\inzynierka\Defer\Defer\Library\SourceAssetDB
     projectPath: Library\SourceAssetDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Defer\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    projectPath: Library\StateCache\MainStageHierarchy\4d\4d2a36d9faf65734f0bbefb3ee623532.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Defer\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    fullPath: F:\Defer\GitHub\Defer\Defer\Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
-    projectPath: Library\StateCache\SceneView\8c\8cd7c613bf844de3b80696e27a479d5e.json
+  - path: Defer\Library\SourceAssetDB-lock
+    fullPath: E:\inzynierka\Defer\Defer\Library\SourceAssetDB-lock
+    projectPath: Library\SourceAssetDB-lock
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Defer\Logs\AssetImportWorker0.log
-    fullPath: F:\Defer\GitHub\Defer\Defer\Logs\AssetImportWorker0.log
+    fullPath: E:\inzynierka\Defer\Defer\Logs\AssetImportWorker0.log
     projectPath: Logs\AssetImportWorker0.log
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Defer\Logs\AssetImportWorker0-prev.log
-    fullPath: F:\Defer\GitHub\Defer\Defer\Logs\AssetImportWorker0-prev.log
-    projectPath: Logs\AssetImportWorker0-prev.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 5
-  - path: Defer\Logs\shadercompiler-AssetImportWorker0.log
-    fullPath: F:\Defer\GitHub\Defer\Defer\Logs\shadercompiler-AssetImportWorker0.log
-    projectPath: Logs\shadercompiler-AssetImportWorker0.log
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Defer\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: F:\Defer\GitHub\Defer\Defer\Logs\shadercompiler-UnityShaderCompiler.exe0.log
-    projectPath: Logs\shadercompiler-UnityShaderCompiler.exe0.log
+  - path: Defer\Logs\Packages-Update.log
+    fullPath: E:\inzynierka\Defer\Defer\Logs\Packages-Update.log
+    projectPath: Logs\Packages-Update.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Defer\Temp\__Backupscenes\0.backup
-    fullPath: F:\Defer\GitHub\Defer\Defer\Temp\__Backupscenes\0.backup
-    projectPath: Temp\__Backupscenes\0.backup
+  - path: Defer\Logs\shadercompiler-AssetImportWorker0.log
+    fullPath: E:\inzynierka\Defer\Defer\Logs\shadercompiler-AssetImportWorker0.log
+    projectPath: Logs\shadercompiler-AssetImportWorker0.log
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Defer\Packages\manifest.json
+    fullPath: E:\inzynierka\Defer\Defer\Packages\manifest.json
+    projectPath: Packages\manifest.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\Packages\packages-lock.json
+    fullPath: E:\inzynierka\Defer\Defer\Packages\packages-lock.json
+    projectPath: Packages\packages-lock.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\AudioManager.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\AudioManager.asset
+    projectPath: ProjectSettings\AudioManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\ClusterInputManager.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\ClusterInputManager.asset
+    projectPath: ProjectSettings\ClusterInputManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\DynamicsManager.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\DynamicsManager.asset
+    projectPath: ProjectSettings\DynamicsManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\EditorBuildSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\EditorSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\EditorSettings.asset
+    projectPath: ProjectSettings\EditorSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\GraphicsSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\GraphicsSettings.asset
+    projectPath: ProjectSettings\GraphicsSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\InputManager.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\InputManager.asset
+    projectPath: ProjectSettings\InputManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\NavMeshAreas.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\NavMeshAreas.asset
+    projectPath: ProjectSettings\NavMeshAreas.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\NotificationsSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\NotificationsSettings.asset
+    projectPath: ProjectSettings\NotificationsSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\PackageManagerSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\PackageManagerSettings.asset
+    projectPath: ProjectSettings\PackageManagerSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\Physics2DSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\Physics2DSettings.asset
+    projectPath: ProjectSettings\Physics2DSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\PresetManager.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\PresetManager.asset
+    projectPath: ProjectSettings\PresetManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\ProjectSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\ProjectVersion.txt
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\ProjectVersion.txt
+    projectPath: ProjectSettings\ProjectVersion.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\QualitySettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\QualitySettings.asset
+    projectPath: ProjectSettings\QualitySettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\TagManager.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\TimeManager.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\TimeManager.asset
+    projectPath: ProjectSettings\TimeManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\UnityConnectSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\UnityConnectSettings.asset
+    projectPath: ProjectSettings\UnityConnectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\VersionControlSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\VersionControlSettings.asset
+    projectPath: ProjectSettings\VersionControlSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\VFXManager.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\VFXManager.asset
+    projectPath: ProjectSettings\VFXManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\ProjectSettings\XRSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\ProjectSettings\XRSettings.asset
+    projectPath: ProjectSettings\XRSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\Temp\Assembly-CSharp.dll.hash
-    fullPath: F:\Defer\GitHub\Defer\Defer\Temp\Assembly-CSharp.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Assembly-CSharp.dll.hash
     projectPath: Temp\Assembly-CSharp.dll.hash
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Defer\Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+    projectPath: Temp\Assembly-CSharp-Editor-firstpass.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Defer\Temp\CompilationLog.txt
-    fullPath: F:\Defer\GitHub\Defer\Defer\Temp\CompilationLog.txt
+    fullPath: E:\inzynierka\Defer\Defer\Temp\CompilationLog.txt
     projectPath: Temp\CompilationLog.txt
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Defer\Temp\Unity.CollabProxy.Editor.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.CollabProxy.Editor.dll.hash
+    projectPath: Temp\Unity.CollabProxy.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.Mobile.AndroidLogcat.Editor.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.Mobile.AndroidLogcat.Editor.dll.hash
+    projectPath: Temp\Unity.Mobile.AndroidLogcat.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.Notifications.Android.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.Notifications.Android.dll.hash
+    projectPath: Temp\Unity.Notifications.Android.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.Notifications.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.Notifications.dll.hash
+    projectPath: Temp\Unity.Notifications.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.Notifications.iOS.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.Notifications.iOS.dll.hash
+    projectPath: Temp\Unity.Notifications.iOS.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.PlasticSCM.Editor.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.PlasticSCM.Editor.dll.hash
+    projectPath: Temp\Unity.PlasticSCM.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.Rider.Editor.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.Rider.Editor.dll.hash
+    projectPath: Temp\Unity.Rider.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.TextMeshPro.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.TextMeshPro.dll.hash
+    projectPath: Temp\Unity.TextMeshPro.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.TextMeshPro.Editor.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.TextMeshPro.Editor.dll.hash
+    projectPath: Temp\Unity.TextMeshPro.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.Timeline.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.Timeline.dll.hash
+    projectPath: Temp\Unity.Timeline.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.Timeline.Editor.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.Timeline.Editor.dll.hash
+    projectPath: Temp\Unity.Timeline.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.VisualStudio.Editor.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.VisualStudio.Editor.dll.hash
+    projectPath: Temp\Unity.VisualStudio.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\Unity.VSCode.Editor.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\Unity.VSCode.Editor.dll.hash
+    projectPath: Temp\Unity.VSCode.Editor.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityEditor.TestRunner.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityEditor.TestRunner.dll.hash
+    projectPath: Temp\UnityEditor.TestRunner.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityEditor.UI.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityEditor.UI.dll.hash
+    projectPath: Temp\UnityEditor.UI.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityEngine.TestRunner.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityEngine.TestRunner.dll.hash
+    projectPath: Temp\UnityEngine.TestRunner.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityEngine.UI.dll.hash
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityEngine.UI.dll.hash
+    projectPath: Temp\UnityEngine.UI.dll.hash
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Defer\Temp\UnityLockfile
-    fullPath: F:\Defer\GitHub\Defer\Defer\Temp\UnityLockfile
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Temp\UnityTempFile-0fdc4eea9517b3141bf822de5c9076e6
-    fullPath: F:\Defer\GitHub\Defer\Defer\Temp\UnityTempFile-0fdc4eea9517b3141bf822de5c9076e6
-    projectPath: Temp\UnityTempFile-0fdc4eea9517b3141bf822de5c9076e6
+  - path: Defer\Temp\UnityTempFile-16f633236b78395418668a1eb91d537d
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-16f633236b78395418668a1eb91d537d
+    projectPath: Temp\UnityTempFile-16f633236b78395418668a1eb91d537d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Temp\UnityTempFile-763269a72d978284d94ba4655d87bd67
-    fullPath: F:\Defer\GitHub\Defer\Defer\Temp\UnityTempFile-763269a72d978284d94ba4655d87bd67
-    projectPath: Temp\UnityTempFile-763269a72d978284d94ba4655d87bd67
+  - path: Defer\Temp\UnityTempFile-17af79e0468f92c4fa52f7d86f94ca48
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-17af79e0468f92c4fa52f7d86f94ca48
+    projectPath: Temp\UnityTempFile-17af79e0468f92c4fa52f7d86f94ca48
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Temp\UnityTempFile-a43c0906d72a16943a45f52ee82303e1
-    fullPath: F:\Defer\GitHub\Defer\Defer\Temp\UnityTempFile-a43c0906d72a16943a45f52ee82303e1
-    projectPath: Temp\UnityTempFile-a43c0906d72a16943a45f52ee82303e1
+  - path: Defer\Temp\UnityTempFile-1b1687231eb3bce41a81a65a7ef111e6
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-1b1687231eb3bce41a81a65a7ef111e6
+    projectPath: Temp\UnityTempFile-1b1687231eb3bce41a81a65a7ef111e6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Temp\UnityTempFile-f1132dbd0ddfc2d4c9fc8e9d6d717c11
-    fullPath: F:\Defer\GitHub\Defer\Defer\Temp\UnityTempFile-f1132dbd0ddfc2d4c9fc8e9d6d717c11
-    projectPath: Temp\UnityTempFile-f1132dbd0ddfc2d4c9fc8e9d6d717c11
+  - path: Defer\Temp\UnityTempFile-1f00f9125576e064586327fc887c25b4
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-1f00f9125576e064586327fc887c25b4
+    projectPath: Temp\UnityTempFile-1f00f9125576e064586327fc887c25b4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Defer\Temp\UnityTempFile-f808160c392ba7f4bb7da2fb421e2681
-    fullPath: F:\Defer\GitHub\Defer\Defer\Temp\UnityTempFile-f808160c392ba7f4bb7da2fb421e2681
-    projectPath: Temp\UnityTempFile-f808160c392ba7f4bb7da2fb421e2681
+  - path: Defer\Temp\UnityTempFile-1f0b86e40c05c944fb874dbb7bf0debf
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-1f0b86e40c05c944fb874dbb7bf0debf
+    projectPath: Temp\UnityTempFile-1f0b86e40c05c944fb874dbb7bf0debf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-29534063f28eb014d948c35174c6a135
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-29534063f28eb014d948c35174c6a135
+    projectPath: Temp\UnityTempFile-29534063f28eb014d948c35174c6a135
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-345e400439d4f0143a9d87043f43cfc3
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-345e400439d4f0143a9d87043f43cfc3
+    projectPath: Temp\UnityTempFile-345e400439d4f0143a9d87043f43cfc3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-3b61119f383873048b861bfb10415018
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-3b61119f383873048b861bfb10415018
+    projectPath: Temp\UnityTempFile-3b61119f383873048b861bfb10415018
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-600c4ad72f50b2f4283e378f5b7aac5e
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-600c4ad72f50b2f4283e378f5b7aac5e
+    projectPath: Temp\UnityTempFile-600c4ad72f50b2f4283e378f5b7aac5e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-83e2c35eee657f541ac35437a8aacc29
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-83e2c35eee657f541ac35437a8aacc29
+    projectPath: Temp\UnityTempFile-83e2c35eee657f541ac35437a8aacc29
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-9515245fe971485459997417014b83b3
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-9515245fe971485459997417014b83b3
+    projectPath: Temp\UnityTempFile-9515245fe971485459997417014b83b3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-9ffa37f3c92927243b7ad45a88ad32c2
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-9ffa37f3c92927243b7ad45a88ad32c2
+    projectPath: Temp\UnityTempFile-9ffa37f3c92927243b7ad45a88ad32c2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-d14c45b2280f7ed469f7ad6e02c273ac
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-d14c45b2280f7ed469f7ad6e02c273ac
+    projectPath: Temp\UnityTempFile-d14c45b2280f7ed469f7ad6e02c273ac
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-d6086af1e93a0614bb8044faf9c5dce4
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-d6086af1e93a0614bb8044faf9c5dce4
+    projectPath: Temp\UnityTempFile-d6086af1e93a0614bb8044faf9c5dce4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-da81831ebef95c24fb1ac69f38bcd011
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-da81831ebef95c24fb1ac69f38bcd011
+    projectPath: Temp\UnityTempFile-da81831ebef95c24fb1ac69f38bcd011
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-e8d1ba576860c264084ea962c4d81d4f
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-e8d1ba576860c264084ea962c4d81d4f
+    projectPath: Temp\UnityTempFile-e8d1ba576860c264084ea962c4d81d4f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-efb8b8e4d8d291f438c02395ef65fb19
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-efb8b8e4d8d291f438c02395ef65fb19
+    projectPath: Temp\UnityTempFile-efb8b8e4d8d291f438c02395ef65fb19
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-f5c96e4eab7251146a8b3aed95d1d2f8
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-f5c96e4eab7251146a8b3aed95d1d2f8
+    projectPath: Temp\UnityTempFile-f5c96e4eab7251146a8b3aed95d1d2f8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Defer\Temp\UnityTempFile-f7cfbf6a0e70f914e8144abfc759a105
+    fullPath: E:\inzynierka\Defer\Defer\Temp\UnityTempFile-f7cfbf6a0e70f914e8144abfc759a105
+    projectPath: Temp\UnityTempFile-f7cfbf6a0e70f914e8144abfc759a105
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Defer\Temp\workerlic
-    fullPath: F:\Defer\GitHub\Defer\Defer\Temp\workerlic
+    fullPath: E:\inzynierka\Defer\Defer\Temp\workerlic
     projectPath: Temp\workerlic
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
   - path: Defer\UIElementsSchema\UIElements.xsd
-    fullPath: F:\Defer\GitHub\Defer\Defer\UIElementsSchema\UIElements.xsd
+    fullPath: E:\inzynierka\Defer\Defer\UIElementsSchema\UIElements.xsd
     projectPath: UIElementsSchema\UIElements.xsd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\UIElementsSchema\Unity.Cloud.Collaborate.Components.ChangeListEntries.xsd
-    fullPath: F:\Defer\GitHub\Defer\Defer\UIElementsSchema\Unity.Cloud.Collaborate.Components.ChangeListEntries.xsd
+    fullPath: E:\inzynierka\Defer\Defer\UIElementsSchema\Unity.Cloud.Collaborate.Components.ChangeListEntries.xsd
     projectPath: UIElementsSchema\Unity.Cloud.Collaborate.Components.ChangeListEntries.xsd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\UIElementsSchema\Unity.Cloud.Collaborate.Components.xsd
-    fullPath: F:\Defer\GitHub\Defer\Defer\UIElementsSchema\Unity.Cloud.Collaborate.Components.xsd
+    fullPath: E:\inzynierka\Defer\Defer\UIElementsSchema\Unity.Cloud.Collaborate.Components.xsd
     projectPath: UIElementsSchema\Unity.Cloud.Collaborate.Components.xsd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\UIElementsSchema\Unity.Cloud.Collaborate.Views.xsd
-    fullPath: F:\Defer\GitHub\Defer\Defer\UIElementsSchema\Unity.Cloud.Collaborate.Views.xsd
+    fullPath: E:\inzynierka\Defer\Defer\UIElementsSchema\Unity.Cloud.Collaborate.Views.xsd
     projectPath: UIElementsSchema\Unity.Cloud.Collaborate.Views.xsd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\UIElementsSchema\UnityEditor.PackageManager.UI.xsd
-    fullPath: F:\Defer\GitHub\Defer\Defer\UIElementsSchema\UnityEditor.PackageManager.UI.xsd
+    fullPath: E:\inzynierka\Defer\Defer\UIElementsSchema\UnityEditor.PackageManager.UI.xsd
     projectPath: UIElementsSchema\UnityEditor.PackageManager.UI.xsd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
-    fullPath: F:\Defer\GitHub\Defer\Defer\UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
+    fullPath: E:\inzynierka\Defer\Defer\UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
     projectPath: UIElementsSchema\UnityEditor.UIElements.Debugger.xsd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\UIElementsSchema\UnityEditor.UIElements.xsd
-    fullPath: F:\Defer\GitHub\Defer\Defer\UIElementsSchema\UnityEditor.UIElements.xsd
+    fullPath: E:\inzynierka\Defer\Defer\UIElementsSchema\UnityEditor.UIElements.xsd
     projectPath: UIElementsSchema\UnityEditor.UIElements.xsd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Defer\UIElementsSchema\UnityEngine.UIElements.xsd
-    fullPath: F:\Defer\GitHub\Defer\Defer\UIElementsSchema\UnityEngine.UIElements.xsd
+    fullPath: E:\inzynierka\Defer\Defer\UIElementsSchema\UnityEngine.UIElements.xsd
     projectPath: UIElementsSchema\UnityEngine.UIElements.xsd
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\UserSettings\AndroidLogcatSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\UserSettings\AndroidLogcatSettings.asset
+    projectPath: UserSettings\AndroidLogcatSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Defer\UserSettings\EditorUserSettings.asset
+    fullPath: E:\inzynierka\Defer\Defer\UserSettings\EditorUserSettings.asset
+    projectPath: UserSettings\EditorUserSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: README.md
+    fullPath: E:\inzynierka\Defer\README.md
+    projectPath: ..\README.md
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: TODO.txt
+    fullPath: E:\inzynierka\Defer\TODO.txt
+    projectPath: ..\TODO.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Unity.gitignore
+    fullPath: E:\inzynierka\Defer\Unity.gitignore
+    projectPath: ..\Unity.gitignore
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
