@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1273174, g: 0.13414761, b: 0.12107885, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -310,13 +310,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.3127561, z: 1}
   m_Children: []
-  m_Father: {fileID: 1092146956}
-  m_RootOrder: 3
+  m_Father: {fileID: 741743495}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -238.99998}
-  m_SizeDelta: {x: -0.20007324, y: -0.3999939}
+  m_AnchoredPosition: {x: 0, y: -239}
+  m_SizeDelta: {x: 681, y: 96}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498025792
 MonoBehaviour:
@@ -356,6 +356,385 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498025790}
   m_CullTransparentMesh: 1
+--- !u!1 &525823938
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 525823939}
+  - component: {fileID: 525823940}
+  m_Layer: 0
+  m_Name: Deck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &525823939
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525823938}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 555.88245, y: 262.78494, z: 2.9899902}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &525823940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 525823938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ed41accc57730e429f7211a47e2a83b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  container:
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    thisImage: {fileID: 0}
+    color: 
+  x: 1
+  deckSize: 40
+  cardInDeck1: {fileID: 1219276505}
+  cardInDeck2: {fileID: 1248422439}
+  cardInDeck3: {fileID: 2038603038}
+  cardInDeck4: {fileID: 678984292}
 --- !u!1 &661376702
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,7 +746,6 @@ GameObject:
   - component: {fileID: 661376703}
   - component: {fileID: 661376705}
   - component: {fileID: 661376704}
-  - component: {fileID: 661376707}
   m_Layer: 5
   m_Name: CardBack
   m_TagString: Untagged
@@ -387,7 +765,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 741743495}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -432,19 +810,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661376702}
   m_CullTransparentMesh: 1
---- !u!114 &661376707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661376702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3d84cd7775fbf8439e7744b8d029b13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardBack: {fileID: 0}
 --- !u!1001 &678984291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -562,28 +927,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 391644209532204504, guid: 85e739826b874be44a48672a6f93ee8b,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 391644209532204504, guid: 85e739826b874be44a48672a6f93ee8b,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.21960786
-      objectReference: {fileID: 0}
-    - target: {fileID: 391644209532204504, guid: 85e739826b874be44a48672a6f93ee8b,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.21960786
-      objectReference: {fileID: 0}
-    - target: {fileID: 391644209532204504, guid: 85e739826b874be44a48672a6f93ee8b,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.21960786
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85e739826b874be44a48672a6f93ee8b, type: 3}
+--- !u!1 &678984292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 391644209532204502, guid: 85e739826b874be44a48672a6f93ee8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 678984291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &678984293 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 391644209532204503, guid: 85e739826b874be44a48672a6f93ee8b,
@@ -701,6 +1052,7 @@ RectTransform:
   - {fileID: 1733225033}
   - {fileID: 817685544}
   - {fileID: 1298962016}
+  - {fileID: 498025791}
   - {fileID: 661376703}
   m_Father: {fileID: 1092146956}
   m_RootOrder: 0
@@ -885,7 +1237,6 @@ GameObject:
   - component: {fileID: 856342264}
   - component: {fileID: 856342263}
   - component: {fileID: 856342262}
-  - component: {fileID: 856342265}
   m_Layer: 5
   m_Name: Deck Panel
   m_TagString: Untagged
@@ -955,7 +1306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -980,26 +1331,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 856342260}
   m_CullTransparentMesh: 1
---- !u!114 &856342265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 856342260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ed41accc57730e429f7211a47e2a83b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deck: []
-  container: []
-  x: 0
-  deckSize: 0
-  cardInDeck1: {fileID: 0}
-  cardInDeck2: {fileID: 0}
-  cardInDeck3: {fileID: 0}
-  cardInDeck4: {fileID: 0}
 --- !u!1 &1034972879
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +1500,6 @@ RectTransform:
   - {fileID: 741743495}
   - {fileID: 1231796342}
   - {fileID: 856342261}
-  - {fileID: 498025791}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1295,16 +1625,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 391644209532204504, guid: 85e739826b874be44a48672a6f93ee8b,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85e739826b874be44a48672a6f93ee8b, type: 3}
 --- !u!224 &1219276504 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 391644209532204503, guid: 85e739826b874be44a48672a6f93ee8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1219276503}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1219276505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 391644209532204502, guid: 85e739826b874be44a48672a6f93ee8b,
     type: 3}
   m_PrefabInstance: {fileID: 1219276503}
   m_PrefabAsset: {fileID: 0}
@@ -1391,7 +1722,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 525823940}
         m_TargetAssemblyTypeName: PlayerDeck, Assembly-CSharp
         m_MethodName: Shuffle
         m_Mode: 1
@@ -1634,16 +1965,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 391644209532204504, guid: 85e739826b874be44a48672a6f93ee8b,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85e739826b874be44a48672a6f93ee8b, type: 3}
 --- !u!224 &1248422438 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 391644209532204503, guid: 85e739826b874be44a48672a6f93ee8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1248422437}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1248422439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 391644209532204502, guid: 85e739826b874be44a48672a6f93ee8b,
     type: 3}
   m_PrefabInstance: {fileID: 1248422437}
   m_PrefabAsset: {fileID: 0}
@@ -2735,13 +3067,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 391644209532204504, guid: 85e739826b874be44a48672a6f93ee8b,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85e739826b874be44a48672a6f93ee8b, type: 3}
+--- !u!1 &2038603038 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 391644209532204502, guid: 85e739826b874be44a48672a6f93ee8b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2038603037}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2038603039 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 391644209532204503, guid: 85e739826b874be44a48672a6f93ee8b,
