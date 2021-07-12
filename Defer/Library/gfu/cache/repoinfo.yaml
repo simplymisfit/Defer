@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-07-07T18:55:01.912+02:00
-  initializedAtString: 2021-07-07T18:55:01.912+02:00
+  lastUpdatedAtString: 2021-07-12T13:59:44.682+02:00
+  initializedAtString: 2021-07-12T12:58:26.625+02:00
   currentGitRemote:
     name: origin
-    url: https://github.com/simplymisfit/Defer.git
+    url: https://github.com/simplymisfit/Defer
     login: 
     user: 
     host: 
@@ -30,9 +30,9 @@ MonoBehaviour:
     name: main
     remote:
       name: origin
-      url: https://github.com/simplymisfit/Defer.git
+      url: https://github.com/simplymisfit/Defer
     trackingBranch: main
   currentConfigRemote:
     name: origin
-    url: https://github.com/simplymisfit/Defer.git
+    url: https://github.com/simplymisfit/Defer
   currentHead: 
