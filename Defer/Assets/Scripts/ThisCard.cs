@@ -39,7 +39,13 @@ public class ThisCard : MonoBehaviour
     public bool summoned;
     public GameObject battleZone;
 
-    public TurnSystem turnSystem;
+    public static int drawX;
+    public int drawXcards;
+    public int addXmaxMana;
+
+
+
+    //public TurnSystem turnSystem;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +55,9 @@ public class ThisCard : MonoBehaviour
 
         canBeSummon = false;
         summoned = false;
+
+        drawX = 0;
+
     }
 
     // Update is called once per frame
@@ -56,7 +65,7 @@ public class ThisCard : MonoBehaviour
     {
 
         Hand = GameObject.Find("Hand");
-        if(this.transform.parent == Hand.transform.parent)
+        if (this.transform.parent == Hand.transform.parent)
         {
             cardBack = false;
         }
@@ -70,6 +79,9 @@ public class ThisCard : MonoBehaviour
 
         thisSprite = thisCard[0].thisImage;
 
+        drawXcards = thisCard[0].drawXcards;
+        addXmaxMana = thisCard[0].addXmaxMana;
+
         nameText.text = "" + cardName;
         costText.text = "" + cost;
         attackText.text = "" + attack;
@@ -79,7 +91,7 @@ public class ThisCard : MonoBehaviour
 
         thatImage.sprite = thisSprite;
 
-        if(thisCard[0].color == "Red")
+        if (thisCard[0].color == "Red")
         {
             frame.GetComponent<Image>().color = new Color32(242, 110, 92, 255);
         }
@@ -139,6 +151,14 @@ public class ThisCard : MonoBehaviour
     {
         TurnSystem.currentMana -= cost;
         summoned = true;
+
+        MaxMana(addXmaxMana);
+        drawX = drawXcards;
     }
 
+    public void MaxMana(int x)
+    {
+        TurnSystem.maxMana += x;
+
+    }
 }

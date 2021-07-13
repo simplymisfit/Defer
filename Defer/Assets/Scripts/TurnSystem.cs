@@ -10,7 +10,7 @@ public class TurnSystem : MonoBehaviour
     public int yourOpponentTurn;
     public Text turnText;
 
-    public int maxMana;
+    public static int maxMana;
     public static int currentMana;
     public Text manaText;
 

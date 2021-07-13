@@ -167,6 +167,7 @@ GameObject:
   - component: {fileID: 3508486946780551482}
   - component: {fileID: 8839907626496151563}
   - component: {fileID: -8735294782240741950}
+  - component: {fileID: -6696945075175366767}
   m_Layer: 5
   m_Name: CardToHand
   m_TagString: Clone
@@ -255,6 +256,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   thisId: 4
@@ -272,13 +275,14 @@ MonoBehaviour:
   thisSprite: {fileID: 0}
   thatImage: {fileID: 3508486947736933942}
   frame: {fileID: 3508486948369568976}
-  cardBack: 1
+  cardBack: 0
   Hand: {fileID: 0}
   numberOfCardsInDeck: 0
   canBeSummon: 0
   summoned: 0
   battleZone: {fileID: 0}
-  turnSystem: {fileID: 0}
+  drawXcards: 0
+  addXmaxMana: 0
 --- !u!114 &7923929113035308536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,6 +357,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentToReturnTo: {fileID: 0}
   placeholderParent: {fileID: 0}
+--- !u!114 &-6696945075175366767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3508486946780551479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: 1
+  m_LayoutPriority: 1
 --- !u!1 &3508486946820803861
 GameObject:
   m_ObjectHideFlags: 0
