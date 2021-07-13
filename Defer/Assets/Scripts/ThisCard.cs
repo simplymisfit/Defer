@@ -30,15 +30,28 @@ public class ThisCard : MonoBehaviour
     public bool cardBack;
     public static bool staticCardBack;
 
+
+    public GameObject Hand;
+
+    public int numberOfCardsInDeck;
+
     // Start is called before the first frame update
     void Start()
     {
         thisCard[0] = CardDatabase.cardList[thisId];
+        numberOfCardsInDeck = PlayerDeck.deckSize;
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        Hand = GameObject.Find("Hand");
+        if(this.transform.parent == Hand.transform.parent)
+        {
+            cardBack = false;
+        }
+
         id = thisCard[0].id;
         cardName = thisCard[0].cardName;
         cost = thisCard[0].cost;
@@ -76,5 +89,13 @@ public class ThisCard : MonoBehaviour
 
         staticCardBack = cardBack;
 
+        if (this.tag == "Clone")
+        {
+            thisCard[0] = PlayerDeck.staticDeck[numberOfCardsInDeck - 1];
+            numberOfCardsInDeck -= 1;
+            PlayerDeck.deckSize -= 1;
+            cardBack = false;
+            this.tag = "Untagged";
+        }
     }
 }
