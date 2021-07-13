@@ -11,7 +11,7 @@ public class TurnSystem : MonoBehaviour
     public Text turnText;
 
     public int maxMana;
-    public static int currentMana;
+    public int currentMana;
     public Text manaText;
 
     // Start is called before the first frame update

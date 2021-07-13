@@ -39,6 +39,8 @@ public class ThisCard : MonoBehaviour
     public bool summoned;
     public GameObject battleZone;
 
+    TurnSystem turnSystem;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -105,7 +107,7 @@ public class ThisCard : MonoBehaviour
             this.tag = "Untagged";
         }
 
-        if (TurnSystem.currentMana >= cost && summoned == false)
+        if (turnSystem.currentMana >= cost && summoned == false)
         {
             canBeSummon = true;
         }
@@ -134,7 +136,7 @@ public class ThisCard : MonoBehaviour
 
     public void Summon()
     {
-        TurnSystem.currentMana -= cost;
+        turnSystem.currentMana -= cost;
         summoned = true;
     }
 
