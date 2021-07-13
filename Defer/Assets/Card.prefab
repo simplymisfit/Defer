@@ -1128,6 +1128,11 @@ MonoBehaviour:
   thatImage: {fileID: 391644208811096791}
   frame: {fileID: 391644207910746161}
   cardBack: 1
+  Hand: {fileID: 0}
+  numberOfCardsInDeck: 0
+  canBeSummon: 0
+  summoned: 0
+  battleZone: {fileID: 0}
 --- !u!114 &391644209532204507
 MonoBehaviour:
   m_ObjectHideFlags: 0

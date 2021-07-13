@@ -35,11 +35,20 @@ public class ThisCard : MonoBehaviour
 
     public int numberOfCardsInDeck;
 
+    public bool canBeSummon;
+    public bool summoned;
+    public GameObject battleZone;
+
+    TurnSystem turnSystem;
+
     // Start is called before the first frame update
     void Start()
     {
         thisCard[0] = CardDatabase.cardList[thisId];
         numberOfCardsInDeck = PlayerDeck.deckSize;
+
+        canBeSummon = false;
+        summoned = false;
     }
 
     // Update is called once per frame
@@ -97,5 +106,38 @@ public class ThisCard : MonoBehaviour
             cardBack = false;
             this.tag = "Untagged";
         }
+
+        if (turnSystem.currentMana >= cost && summoned == false)
+        {
+            canBeSummon = true;
+        }
+        else 
+        {
+            canBeSummon = false;
+        }
+
+        if (canBeSummon == true)
+        {
+            gameObject.GetComponent<Draggable>().enabled = true; 
+        }
+        else
+        {
+            gameObject.GetComponent<Draggable>().enabled = false;
+        }
+
+        battleZone = GameObject.Find("Zone");
+
+        if (summoned == false && this.transform.parent == battleZone.transform)
+        {
+            Summon();
+        }
+
     }
+
+    public void Summon()
+    {
+        turnSystem.currentMana -= cost;
+        summoned = true;
+    }
+
 }
