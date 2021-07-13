@@ -39,7 +39,7 @@ public class ThisCard : MonoBehaviour
     public bool summoned;
     public GameObject battleZone;
 
-    TurnSystem turnSystem;
+    public TurnSystem turnSystem;
 
     // Start is called before the first frame update
     void Start()
@@ -105,20 +105,20 @@ public class ThisCard : MonoBehaviour
             PlayerDeck.deckSize -= 1;
             cardBack = false;
             this.tag = "Untagged";
-        }
 
-        if (turnSystem.currentMana >= cost && summoned == false)
+        }
+        if (TurnSystem.currentMana >= cost && summoned == false)
         {
             canBeSummon = true;
         }
-        else 
+        else
         {
             canBeSummon = false;
         }
 
         if (canBeSummon == true)
         {
-            gameObject.GetComponent<Draggable>().enabled = true; 
+            gameObject.GetComponent<Draggable>().enabled = true;
         }
         else
         {
@@ -132,11 +132,12 @@ public class ThisCard : MonoBehaviour
             Summon();
         }
 
+
     }
 
     public void Summon()
     {
-        turnSystem.currentMana -= cost;
+        TurnSystem.currentMana -= cost;
         summoned = true;
     }
 

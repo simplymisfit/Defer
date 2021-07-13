@@ -278,6 +278,7 @@ MonoBehaviour:
   canBeSummon: 0
   summoned: 0
   battleZone: {fileID: 0}
+  turnSystem: {fileID: 0}
 --- !u!114 &7923929113035308536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,7 +323,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3d84cd7775fbf8439e7744b8d029b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardBack: {fileID: 0}
+  cardBack: {fileID: 8878848032941205257, guid: 70c9314d406817a4cbc747e7eb41b4c1,
+    type: 3}
 --- !u!114 &8839907626496151563
 MonoBehaviour:
   m_ObjectHideFlags: 0

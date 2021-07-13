@@ -1051,7 +1051,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 6, y: -32}
-  m_SizeDelta: {x: 200, y: 300}
+  m_SizeDelta: {x: 400, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &391644209532204505
 CanvasRenderer:
@@ -1133,6 +1133,7 @@ MonoBehaviour:
   canBeSummon: 0
   summoned: 0
   battleZone: {fileID: 0}
+  turnSystem: {fileID: 0}
 --- !u!114 &391644209532204507
 MonoBehaviour:
   m_ObjectHideFlags: 0
