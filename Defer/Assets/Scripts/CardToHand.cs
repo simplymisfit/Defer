@@ -19,6 +19,9 @@ public class CardToHand : MonoBehaviour
         It.transform.position = new Vector3(transform.position.x, transform.position.y, -48);
         It.transform.eulerAngles = new Vector3(25, 0, 0);
         It.tag = "Untagged";
+        transform.tag = "Clone";
+        transform.tag = "Clone";
+        transform.tag = "Clone";
         //}
 
     }
