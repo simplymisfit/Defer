@@ -14,6 +14,9 @@ public class TurnSystem : MonoBehaviour
     public static int currentMana;
     public Text manaText;
 
+    public static bool startTurn;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +26,8 @@ public class TurnSystem : MonoBehaviour
 
         maxMana = 1;
         currentMana = 1;
+
+        startTurn = false;
     }
 
     // Update is called once per frame
@@ -53,5 +58,7 @@ public class TurnSystem : MonoBehaviour
 
         maxMana += 1;
         currentMana = maxMana;
+
+        startTurn = true;
     }
 }

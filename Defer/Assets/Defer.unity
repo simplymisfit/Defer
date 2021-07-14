@@ -810,6 +810,11 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 391644209532204506, guid: 85e739826b874be44a48672a6f93ee8b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 391644209532204507, guid: 85e739826b874be44a48672a6f93ee8b,
         type: 3}
       propertyPath: cardBack
@@ -1049,6 +1054,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1057,6 +1064,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1065,6 +1074,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1073,6 +1084,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1081,6 +1094,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1089,6 +1104,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1097,6 +1114,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1105,6 +1124,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1113,6 +1134,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1121,6 +1144,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1129,6 +1154,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1137,6 +1164,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1145,6 +1174,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1153,6 +1184,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1161,6 +1194,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1169,6 +1204,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1177,6 +1214,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1185,6 +1224,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1193,6 +1234,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1201,6 +1244,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1209,6 +1254,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1217,6 +1264,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1225,6 +1274,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1233,6 +1284,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1241,6 +1294,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1249,6 +1304,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1257,6 +1314,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1265,6 +1324,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1273,6 +1334,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1281,6 +1344,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1289,6 +1354,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1297,6 +1364,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1305,6 +1374,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1313,6 +1384,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1321,6 +1394,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1329,6 +1404,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1337,6 +1414,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1345,6 +1424,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1353,6 +1434,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   - id: 0
@@ -1361,6 +1444,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   container:
@@ -1370,6 +1455,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   x: 3
@@ -1852,6 +1939,11 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 391644209532204506, guid: 85e739826b874be44a48672a6f93ee8b,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 391644209532204507, guid: 85e739826b874be44a48672a6f93ee8b,
         type: 3}
       propertyPath: cardBack
@@ -2130,6 +2222,11 @@ PrefabInstance:
     - target: {fileID: 391644209532204504, guid: 85e739826b874be44a48672a6f93ee8b,
         type: 3}
       propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 391644209532204506, guid: 85e739826b874be44a48672a6f93ee8b,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391644209532204507, guid: 85e739826b874be44a48672a6f93ee8b,
@@ -2628,7 +2725,6 @@ MonoBehaviour:
   yourTurn: 0
   yourOpponentTurn: 0
   turnText: {fileID: 780279112}
-  maxMana: 0
   manaText: {fileID: 128315646}
 --- !u!4 &1864779328
 Transform:
@@ -3098,6 +3194,11 @@ PrefabInstance:
     - target: {fileID: 391644209532204504, guid: 85e739826b874be44a48672a6f93ee8b,
         type: 3}
       propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 391644209532204506, guid: 85e739826b874be44a48672a6f93ee8b,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 391644209532204507, guid: 85e739826b874be44a48672a6f93ee8b,

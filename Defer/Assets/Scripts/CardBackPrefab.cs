@@ -17,7 +17,7 @@ public class CardBackPrefab : MonoBehaviour
     void Update()
     {
         Deck = GameObject.Find("Deck Panel");
-        It.transform.SetParent(Deck.transform);
+        transform.SetParent(Deck.transform);
         It.transform.localScale = Vector3.one;
         It.transform.position = new Vector3(transform.position.x, transform.position.y, -48);
         It.transform.eulerAngles = new Vector3(25, 0, 0);

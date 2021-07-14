@@ -1110,6 +1110,8 @@ MonoBehaviour:
     attack: 0
     health: 0
     cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
   thisId: 4
@@ -1133,7 +1135,8 @@ MonoBehaviour:
   canBeSummon: 0
   summoned: 0
   battleZone: {fileID: 0}
-  turnSystem: {fileID: 0}
+  drawXcards: 0
+  addXmaxMana: 0
 --- !u!114 &391644209532204507
 MonoBehaviour:
   m_ObjectHideFlags: 0

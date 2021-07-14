@@ -70,6 +70,11 @@ public class PlayerDeck : MonoBehaviour
             StartCoroutine(Draw(ThisCard.drawX));
             ThisCard.drawX = 0;
         }
+        if (TurnSystem.startTurn == true)
+        {
+            StartCoroutine(Draw(1));
+            TurnSystem.startTurn = false;
+        }
     }
 
     IEnumerator Example()
