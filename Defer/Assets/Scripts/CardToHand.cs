@@ -9,7 +9,6 @@ public class CardToHand : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         Hand = GameObject.Find("Hand");
 
         //if (It.tag == "First")
@@ -29,6 +28,8 @@ public class CardToHand : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //Dzieki temu nie wywala bledu z indexem
+        Hand = GameObject.Find("Hand");
+        It.tag = "Untagged";
     }
 }
