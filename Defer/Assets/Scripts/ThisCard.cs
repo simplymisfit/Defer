@@ -106,7 +106,8 @@ public class ThisCard : MonoBehaviour
         costText.text = "" + cost;
         attackText.text = "" + attack;
         healthText.text = "" + health;
-        descriptionText.text = "" + descriptionText;
+        descriptionText.text = "" + cardDescription;
+
 
 
         thatImage.sprite = thisSprite;
