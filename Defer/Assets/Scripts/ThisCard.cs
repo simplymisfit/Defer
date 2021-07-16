@@ -74,7 +74,7 @@ public class ThisCard : MonoBehaviour
         canAttack = false;
         summonigSickness = true;
 
-        Enemy = GameObject.Find("Enemy HP");
+        Enemy = GameObject.Find("EnemyHP");
         targeting = false;
         targetingEnemy = false;
 
@@ -221,13 +221,13 @@ public class ThisCard : MonoBehaviour
         {
             if (Target != null)
             {
-                if(Target == Enemy)
+                if (Target == Enemy)
                 {
                     EnemyHp.staticHp -= attack;
                     targeting = false;
                     cantAttack = true;
-                }
-                if(Target.name == "CardToHand(Clone)")
+                }   
+                if (Target.name == "CardToHand(Clone)")
                 {
                     canAttack = true;
                 }

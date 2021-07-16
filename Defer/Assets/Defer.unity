@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3318,7 +3318,7 @@ PrefabInstance:
         type: 3}
       propertyPath: attackBorder
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1898576393}
     - target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: descriptionText
@@ -4112,6 +4112,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880859814}
   m_CullTransparentMesh: 1
+--- !u!1 &1898576393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3508486947232390166, guid: e12734752c3f7664a81de13968cc9b4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1290026908}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1950956589
 GameObject:
   m_ObjectHideFlags: 0

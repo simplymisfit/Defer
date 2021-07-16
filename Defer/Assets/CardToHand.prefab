@@ -206,7 +206,7 @@ MonoBehaviour:
   battleZone: {fileID: 0}
   drawXcards: 0
   addXmaxMana: 0
-  attackBorder: {fileID: 3508486947599954639}
+  attackBorder: {fileID: 3508486947232390166}
   Target: {fileID: 0}
   Enemy: {fileID: 0}
   summonigSickness: 0
