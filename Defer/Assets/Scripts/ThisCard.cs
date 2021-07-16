@@ -44,6 +44,19 @@ public class ThisCard : MonoBehaviour
     public int addXmaxMana;
 
 
+    public GameObject attackBorder;
+    public GameObject Target;
+    public GameObject Enemy;
+    public bool summonigSickness;
+    public bool cantAttack;
+    public bool canAttack;
+    public static bool staticTargeting;
+    public static bool staticTargetingEnemy;
+    public bool targeting;
+    public bool targetingEnemy;
+    public bool onlyThisCardAttack;
+
+
 
     //public TurnSystem turnSystem;
 
@@ -57,6 +70,13 @@ public class ThisCard : MonoBehaviour
         summoned = false;
 
         drawX = 0;
+
+        canAttack = false;
+        summonigSickness = true;
+
+        Enemy = GameObject.Find("Enemy HP");
+        targeting = false;
+        targetingEnemy = false;
 
     }
 
@@ -144,7 +164,41 @@ public class ThisCard : MonoBehaviour
             Summon();
         }
 
-
+        if(canAttack == true)
+        {
+            attackBorder.SetActive(true);
+        }
+        else
+        {
+            attackBorder.SetActive(false);
+        }
+        if(TurnSystem.isYourTurn == false && summoned == true)
+        {
+            summonigSickness = false;
+            cantAttack = false;
+        }
+        if(TurnSystem.isYourTurn == true && summonigSickness == false && cantAttack == false)
+        {
+            canAttack = true;
+        }
+        else
+        {
+            canAttack = false;
+        }
+        targeting = staticTargeting;
+        targetingEnemy = staticTargetingEnemy;
+        if(targetingEnemy == true)
+        {
+            Target = Enemy;
+        }
+        else
+        {
+            Target = null;
+        }
+        if(targeting==true && targetingEnemy == true && onlyThisCardAttack == true)
+        {
+            Attack();
+        }
     }
 
     public void Summon()
@@ -161,4 +215,51 @@ public class ThisCard : MonoBehaviour
         TurnSystem.maxMana += x;
 
     }
+    public void Attack()
+    {
+        if (canAttack == true)
+        {
+            if (Target != null)
+            {
+                if(Target == Enemy)
+                {
+                    EnemyHp.staticHp -= attack;
+                    targeting = false;
+                    cantAttack = true;
+                }
+                if(Target.name == "CardToHand(Clone)")
+                {
+                    canAttack = true;
+                }
+            }
+        }
+    }
+
+    public void UntargetEnemy()
+    {
+        staticTargetingEnemy = false;
+    }
+    public void TargetEnemy()
+    {
+        staticTargetingEnemy = true;
+    }
+    public void StartAttack()
+    {
+        staticTargeting = true;
+    }
+    public void StopAttack()
+    {
+        staticTargeting = false;
+    }
+    public void OneCardAttack()
+    {
+        onlyThisCardAttack = true;
+    }
+    public void OneCardAttackStop()
+    {
+        onlyThisCardAttack = false;
+    }
 }
+
+
+

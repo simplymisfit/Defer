@@ -23,7 +23,7 @@ public class EnemyHp : MonoBehaviour
     {
         hp = staticHp;
         //Health.fillAmount = hp / maxHp;
-
+            
         if (hp >= maxHp)
         {
             hp = maxHp;

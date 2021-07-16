@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TurnSystem : MonoBehaviour
 {
-    public bool isYourTurn;
+    public static bool isYourTurn;
     public int yourTurn;
     public int yourOpponentTurn;
     public Text turnText;

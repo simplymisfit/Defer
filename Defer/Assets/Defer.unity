@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -568,6 +568,8 @@ GameObject:
   - component: {fileID: 228777056}
   - component: {fileID: 228777058}
   - component: {fileID: 228777057}
+  - component: {fileID: 228777060}
+  - component: {fileID: 228777059}
   m_Layer: 5
   m_Name: EnemyHP
   m_TagString: Untagged
@@ -632,6 +634,68 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228777055}
   m_CullTransparentMesh: 1
+--- !u!114 &228777059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228777055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
+            type: 3}
+          m_TargetAssemblyTypeName: ThisCard, Assembly-CSharp
+          m_MethodName: TargetEnemy
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
+            type: 3}
+          m_TargetAssemblyTypeName: ThisCard, Assembly-CSharp
+          m_MethodName: UntargetEnemy
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!114 &228777060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228777055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3bb264ab32fcaf42975d54ca811c5f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 0
+  Health: {fileID: 0}
+  hpText: {fileID: 1712767401}
 --- !u!1 &293226497
 GameObject:
   m_ObjectHideFlags: 0
@@ -3252,6 +3316,11 @@ PrefabInstance:
       objectReference: {fileID: 1981271523}
     - target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
+      propertyPath: attackBorder
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
+        type: 3}
       propertyPath: descriptionText
       value: 
       objectReference: {fileID: 1516083132}
@@ -3264,6 +3333,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.a
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508486947599954639, guid: e12734752c3f7664a81de13968cc9b4f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3508486947723840887, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
@@ -3887,7 +3961,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db0048b243d4cfa409397b7b35f87186, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isYourTurn: 0
   yourTurn: 0
   yourOpponentTurn: 0
   turnText: {fileID: 780279112}
