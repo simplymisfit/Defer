@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -869,8 +869,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 856, y: -428}
-  m_SizeDelta: {x: 547, y: 276.5}
+  m_AnchoredPosition: {x: 838.0496, y: -435.03}
+  m_SizeDelta: {x: 570.3204, y: 295.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &363901532
 MonoBehaviour:
@@ -1896,6 +1896,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1906,6 +1907,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1916,6 +1918,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1926,6 +1929,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1936,6 +1940,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1946,6 +1951,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1956,6 +1962,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1966,6 +1973,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1976,6 +1984,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1986,6 +1995,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1996,6 +2006,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2006,6 +2017,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2016,6 +2028,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2026,6 +2039,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2036,6 +2050,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2046,6 +2061,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2056,6 +2072,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2066,6 +2083,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2076,6 +2094,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2086,6 +2105,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2096,6 +2116,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2106,6 +2127,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2116,6 +2138,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2126,6 +2149,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2136,6 +2160,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2146,6 +2171,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2156,6 +2182,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2166,6 +2193,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2176,6 +2204,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2186,6 +2215,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2196,6 +2226,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2206,6 +2237,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2216,6 +2248,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2226,6 +2259,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2236,6 +2270,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2246,6 +2281,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2256,6 +2292,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2266,6 +2303,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2276,6 +2314,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2286,6 +2325,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   container:
   - id: 0
     cardName: 
@@ -2297,6 +2337,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   x: 3
   cardInDeck1: {fileID: 1219276505}
   cardInDeck2: {fileID: 1248422439}
@@ -3376,12 +3417,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Clone
       objectReference: {fileID: 0}
-    - target: {fileID: 3508486946780551482, guid: e12734752c3f7664a81de13968cc9b4f,
-        type: 3}
-      propertyPath: cardBack
-      value: 
-      objectReference: {fileID: 8878848032941205257, guid: 70c9314d406817a4cbc747e7eb41b4c1,
-        type: 3}
     - target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: Hand

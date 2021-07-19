@@ -20,9 +20,14 @@ public class Card
 
     public string color;
 
+    public int returnXcards;
+
+
+
+
     public Card() { }
 
-    public Card(int Id, string CardName, int Cost, int Attack, int Health, string CardDescription, Sprite ThisImage, string Color, int DrawXcards, int AddXmaxMana)
+    public Card(int Id, string CardName, int Cost, int Attack, int Health, string CardDescription, Sprite ThisImage, string Color, int DrawXcards, int AddXmaxMana, int ReturnXcards)
     {
         id = Id;
         cardName = CardName;
@@ -37,5 +42,8 @@ public class Card
 
         drawXcards = DrawXcards;
         addXmaxMana = AddXmaxMana;
+
+        returnXcards = ReturnXcards;
+
     }
 }

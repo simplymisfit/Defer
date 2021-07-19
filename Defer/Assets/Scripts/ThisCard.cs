@@ -62,6 +62,11 @@ public class ThisCard : MonoBehaviour
     public GameObject Graveyard;
     public bool beInGraveyard;
 
+    public int hurted;
+    public int actuallpower;
+    public int returnXcards;
+    public bool useReturn;
+    public static bool UcanReturn;
 
 
 
@@ -110,9 +115,14 @@ public class ThisCard : MonoBehaviour
         drawXcards = thisCard[0].drawXcards;
         addXmaxMana = thisCard[0].addXmaxMana;
 
+        returnXcards = thisCard[0].returnXcards;
+
         nameText.text = "" + cardName;
         costText.text = "" + cost;
-        attackText.text = "" + attack;
+
+        actuallpower = attack-hurted;
+
+        attackText.text = "" + actuallpower;
         healthText.text = "" + health;
         descriptionText.text = "" + cardDescription;
 
@@ -209,13 +219,26 @@ public class ThisCard : MonoBehaviour
             Attack();
         }
 
-        if(canBeSummon == true)
+        if(canBeSummon == true || UcanReturn == true && beInGraveyard == true)
         {
             summonBorder.SetActive(true);
         }
         else
         {
             summonBorder.SetActive(false);
+        }
+        if (actuallpower <= 0)
+        {
+            Destroy();
+        }
+        if (returnXcards > 0 && summoned == true && useReturn == false)
+        {
+            Return(returnXcards);
+            useReturn = true;
+        }
+        if(TurnSystem.isYourTurn == false)
+        {
+            UcanReturn = false;
         }
     }
 
@@ -288,8 +311,31 @@ public class ThisCard : MonoBehaviour
             canBeDestroyed = false;
             summoned = false;
             beInGraveyard = true;
+            hurted = 0;
         }
     }
+    public void Return(int x)
+    {
+        for (int i = 0; i <= x; i++)
+        {
+            ReturnCard();
+        }
+    } 
+    public void ReturnCard()
+    {
+        UcanReturn = true;
+    }
+    public void ReturnThis()
+    {
+        if(beInGraveyard == true && UcanReturn == true)
+        {
+            this.transform.SetParent(Hand.transform);
+            UcanReturn = false;
+            beInGraveyard = false;
+            summonigSickness = true;
+        }
+    }
+
 }
 
 

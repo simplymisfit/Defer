@@ -244,7 +244,6 @@ GameObject:
   - component: {fileID: 3508486946780551483}
   - component: {fileID: 7923929113035308536}
   - component: {fileID: 3457800527127043081}
-  - component: {fileID: 3508486946780551482}
   - component: {fileID: 8839907626496151563}
   - component: {fileID: -8735294782240741950}
   - component: {fileID: -6696945075175366767}
@@ -339,6 +338,7 @@ MonoBehaviour:
     addXmaxMana: 0
     thisImage: {fileID: 0}
     color: 
+    returnXcards: 0
   thisId: 4
   id: 0
   cardName: 
@@ -372,6 +372,13 @@ MonoBehaviour:
   targetingEnemy: 0
   onlyThisCardAttack: 0
   summonBorder: {fileID: 577111869075933095}
+  canBeDestroyed: 0
+  Graveyard: {fileID: 0}
+  beInGraveyard: 0
+  hurted: 0
+  actuallpower: 0
+  returnXcards: 0
+  useReturn: 0
 --- !u!114 &7923929113035308536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -404,20 +411,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!114 &3508486946780551482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3508486946780551479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3d84cd7775fbf8439e7744b8d029b13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardBack: {fileID: 8878848032941205257, guid: 70c9314d406817a4cbc747e7eb41b4c1,
-    type: 3}
 --- !u!114 &8839907626496151563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,7 +478,7 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 3508486946780551483}
           m_TargetAssemblyTypeName: ThisCard, Assembly-CSharp
-          m_MethodName: StartAttack
+          m_MethodName: ReturnThis
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
