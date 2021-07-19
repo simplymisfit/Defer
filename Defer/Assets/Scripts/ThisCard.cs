@@ -56,6 +56,14 @@ public class ThisCard : MonoBehaviour
     public bool targetingEnemy;
     public bool onlyThisCardAttack;
 
+    public GameObject summonBorder;
+
+    public bool canBeDestroyed;
+    public GameObject Graveyard;
+    public bool beInGraveyard;
+
+
+
 
 
     //public TurnSystem turnSystem;
@@ -140,7 +148,7 @@ public class ThisCard : MonoBehaviour
             this.tag = "Untagged";
 
         }
-        if (TurnSystem.currentMana >= cost && summoned == false)
+        if (TurnSystem.currentMana >= cost && summoned == false /* nowe */ && beInGraveyard == false)
         {
             canBeSummon = true;
         }
@@ -165,7 +173,7 @@ public class ThisCard : MonoBehaviour
             Summon();
         }
 
-        if(canAttack == true)
+        if(canAttack == true /* nowe */ && beInGraveyard == false)
         {
             attackBorder.SetActive(true);
         }
@@ -200,6 +208,15 @@ public class ThisCard : MonoBehaviour
         {
             Attack();
         }
+
+        if(canBeSummon == true)
+        {
+            summonBorder.SetActive(true);
+        }
+        else
+        {
+            summonBorder.SetActive(false);
+        }
     }
 
     public void Summon()
@@ -218,7 +235,7 @@ public class ThisCard : MonoBehaviour
     }
     public void Attack()
     {
-        if (canAttack == true)
+        if (canAttack == true /* nowe */ && summoned == true)
         {
             if (Target != null)
             {
@@ -259,6 +276,19 @@ public class ThisCard : MonoBehaviour
     public void OneCardAttackStop()
     {
         onlyThisCardAttack = false;
+    }
+
+    public void Destroy()
+    {
+        Graveyard = GameObject.Find("My Graveyard");
+        canBeDestroyed = true; //just a test
+        if(canBeDestroyed == true)
+        {
+            this.transform.SetParent(Graveyard.transform);
+            canBeDestroyed = false;
+            summoned = false;
+            beInGraveyard = true;
+        }
     }
 }
 
