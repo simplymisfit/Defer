@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -469,6 +469,85 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161450274}
+  m_CullTransparentMesh: 1
+--- !u!1 &173743459
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 173743460}
+  - component: {fileID: 173743462}
+  - component: {fileID: 173743461}
+  m_Layer: 5
+  m_Name: Victory Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &173743460
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173743459}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 7.8046, y: 7.8046, z: 7.8046}
+  m_Children: []
+  m_Father: {fileID: 1092146956}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &173743461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173743459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: f4c99a340a6e6504aa6e992b7a253612, type: 3}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 215
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &173743462
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173743459}
   m_CullTransparentMesh: 1
 --- !u!1 &215729823
 GameObject:
@@ -1897,6 +1976,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1908,6 +1988,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1919,6 +2000,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1930,6 +2012,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1941,6 +2024,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1952,6 +2036,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1963,6 +2048,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1974,6 +2060,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1985,6 +2072,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -1996,6 +2084,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2007,6 +2096,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2018,6 +2108,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2029,6 +2120,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2040,6 +2132,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2051,6 +2144,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2062,6 +2156,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2073,6 +2168,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2084,6 +2180,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2095,6 +2192,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2106,6 +2204,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2117,6 +2216,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2128,6 +2228,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2139,6 +2240,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2150,6 +2252,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2161,6 +2264,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2172,6 +2276,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2183,6 +2288,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2194,6 +2300,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2205,6 +2312,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2216,6 +2324,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2227,6 +2336,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2238,6 +2348,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2249,6 +2360,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2260,6 +2372,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2271,6 +2384,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2282,6 +2396,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2293,6 +2408,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2304,6 +2420,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2315,6 +2432,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2326,6 +2444,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   container:
   - id: 0
     cardName: 
@@ -2338,6 +2457,7 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
+    healXpower: 0
   x: 3
   cardInDeck1: {fileID: 1219276505}
   cardInDeck2: {fileID: 1248422439}
@@ -2605,6 +2725,8 @@ RectTransform:
   - {fileID: 856342261}
   - {fileID: 1093456537}
   - {fileID: 713882522}
+  - {fileID: 1662329523}
+  - {fileID: 173743460}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4109,6 +4231,56 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1632288605}
   m_CullTransparentMesh: 1
+--- !u!1 &1662329522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1662329523}
+  - component: {fileID: 1662329524}
+  m_Layer: 5
+  m_Name: Victory System
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1662329523
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662329522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1092146956}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1662329524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662329522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e7ee30f40c0f4d459f957de62d200fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  victoryText: {fileID: 173743461}
+  textObject: {fileID: 173743459}
 --- !u!224 &1702467091 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,

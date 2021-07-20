@@ -68,7 +68,8 @@ public class ThisCard : MonoBehaviour
     public bool useReturn;
     public static bool UcanReturn;
 
-
+    public int healXpower;
+    public bool canHeal;
 
 
     //public TurnSystem turnSystem;
@@ -91,6 +92,7 @@ public class ThisCard : MonoBehaviour
         targeting = false;
         targetingEnemy = false;
 
+        canHeal = true;
     }
 
     // Update is called once per frame
@@ -116,6 +118,8 @@ public class ThisCard : MonoBehaviour
         addXmaxMana = thisCard[0].addXmaxMana;
 
         returnXcards = thisCard[0].returnXcards;
+
+        healXpower = thisCard[0].healXpower;
 
         nameText.text = "" + cardName;
         costText.text = "" + cost;
@@ -240,6 +244,12 @@ public class ThisCard : MonoBehaviour
         {
             UcanReturn = false;
         }
+
+        if(canHeal == true && summoned == true)
+        {
+            Heal();
+            canHeal = false;
+        }
     }
 
     public void Summon()
@@ -334,6 +344,11 @@ public class ThisCard : MonoBehaviour
             beInGraveyard = false;
             summonigSickness = true;
         }
+    }
+
+    public void Heal()
+    {
+        PlayerHp.staticHp += healXpower;
     }
 
 }
