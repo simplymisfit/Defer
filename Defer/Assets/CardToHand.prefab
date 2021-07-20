@@ -339,7 +339,8 @@ MonoBehaviour:
     thisImage: {fileID: 0}
     color: 
     returnXcards: 0
-  thisId: 4
+    healXpower: 0
+  thisId: 5
   id: 0
   cardName: 
   cost: 0
@@ -379,6 +380,8 @@ MonoBehaviour:
   actuallpower: 0
   returnXcards: 0
   useReturn: 0
+  healXpower: 0
+  canHeal: 0
 --- !u!114 &7923929113035308536
 MonoBehaviour:
   m_ObjectHideFlags: 0

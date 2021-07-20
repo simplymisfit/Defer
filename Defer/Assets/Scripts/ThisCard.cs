@@ -162,7 +162,7 @@ public class ThisCard : MonoBehaviour
             this.tag = "Untagged";
 
         }
-        if (TurnSystem.currentMana >= cost && summoned == false /* nowe */ && beInGraveyard == false)
+        if (TurnSystem.currentMana >= cost && summoned == false  && beInGraveyard == false && TurnSystem.isYourTurn == true)
         {
             canBeSummon = true;
         }
@@ -235,7 +235,7 @@ public class ThisCard : MonoBehaviour
         {
             Destroy();
         }
-        if (returnXcards > 0 && summoned == true && useReturn == false)
+        if (returnXcards > 0 && summoned == true && useReturn == false && TurnSystem.isYourTurn == true)
         {
             Return(returnXcards);
             useReturn = true;

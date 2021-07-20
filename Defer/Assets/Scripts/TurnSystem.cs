@@ -16,18 +16,22 @@ public class TurnSystem : MonoBehaviour
 
     public static bool startTurn;
 
+    public int random;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        isYourTurn = true;
-        yourTurn = 1;
-        yourOpponentTurn = 0;
+        /*        isYourTurn = true;
+                yourTurn = 1;
+                yourOpponentTurn = 0;
 
-        maxMana = 1;
-        currentMana = 1;
+                maxMana = 1;
+                currentMana = 1;
 
-        startTurn = false;
+                startTurn = false;*/
+
+        StartGame();
     }
 
     // Update is called once per frame
@@ -60,5 +64,30 @@ public class TurnSystem : MonoBehaviour
         currentMana = maxMana;
 
         startTurn = true;
+    }
+    public void StartGame()
+    {
+        random = Random.Range(0, 2);
+        if (random == 0)
+        {
+            isYourTurn = true;
+            yourTurn = 1;
+            yourOpponentTurn = 0;
+
+            maxMana = 1;
+            currentMana = 1;
+
+            startTurn = false;
+        }
+        if (random == 1)
+        {
+            isYourTurn = false;
+            yourTurn = 0;
+            yourOpponentTurn = 1;
+
+            maxMana = 0;
+            currentMana = 0;
+
+        }
     }
 }
