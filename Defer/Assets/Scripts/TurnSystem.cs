@@ -18,6 +18,10 @@ public class TurnSystem : MonoBehaviour
 
     public int random;
 
+    public bool turnEnd;
+    public Text timerText;
+    public int seconds;
+    public bool timerStart;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +36,10 @@ public class TurnSystem : MonoBehaviour
                 startTurn = false;*/
 
         StartGame();
+
+        seconds = 60;
+        timerStart = true;
+
     }
 
     // Update is called once per frame
@@ -47,6 +55,35 @@ public class TurnSystem : MonoBehaviour
         }
 
         manaText.text = currentMana + "/" + maxMana;
+
+        if(isYourTurn == true && seconds > 0 && timerStart == true)
+        {
+            StartCoroutine(Timer());
+            timerStart = false;
+        }
+
+        if(seconds == 0 && isYourTurn == true)
+        {
+            EndYourTurn();
+            timerStart = true;
+            seconds = 60;
+        }
+
+        timerText.text = seconds + "";
+
+
+        if(isYourTurn == false && seconds > 0 && timerStart == true)
+        {
+            StartCoroutine(EnemyTimer());
+            timerStart = false;
+        }
+
+        if(seconds == 0 && isYourTurn == false)
+        {
+            EndYourOpponentTurn();
+            timerStart = true;
+            seconds = 60;
+        }
     }
 
     public void EndYourTurn()
@@ -88,6 +125,26 @@ public class TurnSystem : MonoBehaviour
             maxMana = 0;
             currentMana = 0;
 
+        }
+    }
+
+    IEnumerator Timer()
+    {
+        if(isYourTurn == true && seconds > 0)
+        {
+            yield return new WaitForSeconds(1);
+            seconds--;
+            StartCoroutine(Timer());
+        }
+    }
+
+    IEnumerator EnemyTimer()
+    {
+        if (isYourTurn == false && seconds > 0)
+        {
+            yield return new WaitForSeconds(1);
+            seconds--;
+            StartCoroutine(EnemyTimer());
         }
     }
 }
