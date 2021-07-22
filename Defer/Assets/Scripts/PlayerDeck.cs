@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerDeck : MonoBehaviour
 {
@@ -24,6 +25,8 @@ public class PlayerDeck : MonoBehaviour
 
     public GameObject Hand;
 
+    public Text LoseText;
+    public GameObject LoseTextGameObject;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +46,12 @@ public class PlayerDeck : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        if (deckSize <= 0)
+        {
+            LoseTextGameObject.SetActive(true);
+            LoseText.text = "You Lose :(";
+        }
         staticDeck = deck;
 
         if (deckSize < 30)

@@ -23,6 +23,10 @@ public class TurnSystem : MonoBehaviour
     public int seconds;
     public bool timerStart;
 
+    public static int maxEnemyMana;
+    public static int currentEnemyMana;
+    public Text enemyManaText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -84,12 +88,17 @@ public class TurnSystem : MonoBehaviour
             timerStart = true;
             seconds = 60;
         }
+        enemyManaText.text = currentEnemyMana + "/" + maxEnemyMana;
     }
 
     public void EndYourTurn()
     {
         isYourTurn = false;
         yourOpponentTurn += 1;
+
+        maxEnemyMana += 1;
+        currentEnemyMana += 1;
+
     }
 
     public void EndYourOpponentTurn()
@@ -114,6 +123,9 @@ public class TurnSystem : MonoBehaviour
             maxMana = 1;
             currentMana = 1;
 
+            maxEnemyMana = 0;
+            currentEnemyMana = 0;
+
             startTurn = false;
         }
         if (random == 1)
@@ -124,6 +136,9 @@ public class TurnSystem : MonoBehaviour
 
             maxMana = 0;
             currentMana = 0;
+
+            maxEnemyMana = 1;
+            currentEnemyMana = 1;
 
         }
     }
