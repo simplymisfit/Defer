@@ -555,8 +555,9 @@ GameObject:
   - component: {fileID: 347436797512153669}
   - component: {fileID: 8957384562161521929}
   - component: {fileID: 454799643936807171}
-  - component: {fileID: 5780035019323901163}
-  - component: {fileID: 2019816710795042266}
+  - component: {fileID: 6977472273642303244}
+  - component: {fileID: 1364608181698032936}
+  - component: {fileID: -5075579927517555110}
   m_Layer: 5
   m_Name: AICard
   m_TagString: Clone
@@ -623,7 +624,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &5780035019323901163
+--- !u!114 &6977472273642303244
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -632,7 +633,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 5269360944077975637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2f7fefba939f554586dd34bb8941b0c, type: 3}
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: 1
+  m_LayoutPriority: 1
+--- !u!225 &1364608181698032936
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269360944077975637}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &-5075579927517555110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5269360944077975637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4af8263c8f10638498a8611d3c6ba537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   thisCard:
@@ -648,61 +681,42 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
-  thisId: 4
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+  thisId: 5
   id: 0
   cardName: 
   cost: 0
   attack: 0
   health: 0
   cardDescription: 
-  nameText: {fileID: 0}
-  costText: {fileID: 0}
-  attackText: {fileID: 0}
-  healthText: {fileID: 0}
-  descriptionText: {fileID: 0}
+  nameText: {fileID: 3890073323100147379}
+  costText: {fileID: 5450089215333136097}
+  attackText: {fileID: 2587146655581080188}
+  healthText: {fileID: 5271289214674151694}
+  descriptionText: {fileID: 356347722810623825}
   thisSprite: {fileID: 0}
-  thatImage: {fileID: 0}
-  frame: {fileID: 0}
-  cardBack: 1
-  Hand: {fileID: 0}
-  numberOfCardsInDeck: 0
-  canBeSummon: 0
-  summoned: 0
-  battleZone: {fileID: 0}
+  thatImage: {fileID: 8029846295835249546}
+  frame: {fileID: 105644909079760413}
   drawXcards: 0
   addXmaxMana: 0
-  attackBorder: {fileID: 0}
-  Target: {fileID: 0}
-  Enemy: {fileID: 0}
-  summonigSickness: 0
-  cantAttack: 0
-  canAttack: 0
-  targeting: 0
-  targetingEnemy: 0
-  onlyThisCardAttack: 0
-  summonBorder: {fileID: 0}
-  canBeDestroyed: 0
-  Graveyard: {fileID: 0}
-  beInGraveyard: 0
   hurted: 0
   actuallpower: 0
   returnXcards: 0
-  useReturn: 0
-  healXpower: 0
-  canHeal: 0
---- !u!114 &2019816710795042266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5269360944077975637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3d84cd7775fbf8439e7744b8d029b13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardBack: {fileID: 3542201834888445370}
+  Hand: {fileID: 0}
+  z: 0
+  It: {fileID: 5269360944077975637}
+  numberOfCardsInDeck: 0
 --- !u!1 &6513931650172220758
 GameObject:
   m_ObjectHideFlags: 0

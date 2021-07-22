@@ -13,7 +13,7 @@ public class AI : MonoBehaviour
     public GameObject Graveyard;
 
     public int x;
-    public int deckSize;
+    public static int deckSize;
 
     public GameObject cardInDeck1;
     public GameObject cardInDeck2;
