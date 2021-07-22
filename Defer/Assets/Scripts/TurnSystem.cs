@@ -99,6 +99,7 @@ public class TurnSystem : MonoBehaviour
         maxEnemyMana += 1;
         currentEnemyMana += 1;
 
+        AI.draw = false;
     }
 
     public void EndYourOpponentTurn()
