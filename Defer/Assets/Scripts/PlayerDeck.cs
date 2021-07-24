@@ -124,7 +124,7 @@ public class PlayerDeck : MonoBehaviour
     }
     IEnumerator Draw(int x)
     {
-        for (int i=1; i < x; i++)
+        for (int i=0; i < x; i++)
         {
             yield return new WaitForSeconds(1);
             Instantiate(CardToHand, transform.position, transform.rotation);
