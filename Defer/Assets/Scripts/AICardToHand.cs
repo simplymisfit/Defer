@@ -7,6 +7,12 @@ public class AICardToHand : MonoBehaviour
 {
     public List<Card> thisCard = new List<Card>();
 
+
+    public static List<Card> cardsInHandStatic = new List<Card>();
+    public List<Card> cardsInHand = new List<Card>();
+    public static int cardsInHandNumber;
+
+
     public int thisId;
 
     public int id;
@@ -43,6 +49,12 @@ public class AICardToHand : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        cardsInHandStatic = cardsInHand; 
+
+
+
+
         thisCard[0] = CardDatabase.cardList[thisId];
         Hand = GameObject.Find("Enemy Hand");
 
@@ -110,10 +122,24 @@ public class AICardToHand : MonoBehaviour
 
         if(this.tag == "Clone")
         {
+            cardsInHand[cardsInHandNumber] = AI.staticEnemyDeck[numberOfCardsInDeck - 1];
+            cardsInHandNumber++;
+
+
             thisCard[0] = AI.staticEnemyDeck[numberOfCardsInDeck - 1];
             numberOfCardsInDeck -= 1;
             AI.deckSize -= 1;
             this.tag = "Untagged";
+        }
+
+
+
+        for (int i = 0; i < 40; i++)
+        {
+            if(cardsInHand[i].id != 0)
+            {
+                cardsInHandStatic[i] = cardsInHand[i];
+            }
         }
 
        // if(thisCard[0] = AI.staticEnemyDeck[numberOfCardsInDeck])

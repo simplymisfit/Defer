@@ -15,11 +15,11 @@ E:/inzynierka/Defer/Defer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53849
+61655
 Successfully changed project path to: E:/inzynierka/Defer/Defer
 E:/inzynierka/Defer/Defer
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 30.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 34.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001951 seconds.
+Registered in 0.001819 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 28.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.019 seconds
+- Completed reload, in  0.998 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002458 seconds.
+Registered in 0.002484 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.116 seconds
+- Completed reload, in  0.923 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1501 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 67.8 MB.
-System memory in use after: 67.9 MB.
+System memory in use after: 67.8 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 1923.
-Total: 1.829700 ms (FindLiveObjects: 0.134800 ms CreateObjectMapping: 0.039000 ms MarkObjects: 1.603300 ms  DeleteObjects: 0.051800 ms)
+Total: 1.641600 ms (FindLiveObjects: 0.121600 ms CreateObjectMapping: 0.038300 ms MarkObjects: 1.427600 ms  DeleteObjects: 0.053300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,481 +79,77 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Hand Painted Seamless Wood Texture
-  artifactKey: Guid(7229da071fdcc32489107c8a2211b377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Painted Seamless Wood Texture using Guid(7229da071fdcc32489107c8a2211b377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3e6965eada3f568d0570347f4b2f6c') in 0.007584 seconds 
-  Import took 0.079717 seconds .
+  path: Assets/Scripts/PlayerDeck.cs
+  artifactKey: Guid(9ed41accc57730e429f7211a47e2a83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerDeck.cs using Guid(9ed41accc57730e429f7211a47e2a83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2489d59edcb9114bf2c1f400c4814a') in 0.040541 seconds 
+  Import took 0.103423 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.151443 seconds.
-  path: Assets/HandPaintedRockTextures/Textures/rock_04.png
-  artifactKey: Guid(c719c4caa03bf5545a08e46460749df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPaintedRockTextures/Textures/rock_04.png using Guid(c719c4caa03bf5545a08e46460749df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2160d6f4e2ebe117e82563b0374d68ad') in 0.102962 seconds 
-  Import took 0.124262 seconds .
+  Time since last request: 0.732324 seconds.
+  path: Assets/Scripts/PlayerDeck.cs
+  artifactKey: Guid(9ed41accc57730e429f7211a47e2a83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerDeck.cs using Guid(9ed41accc57730e429f7211a47e2a83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2489d59edcb9114bf2c1f400c4814a') in 0.001246 seconds 
+  Import took 0.068913 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.276848 seconds.
-  path: Assets/Resources/Player2.jpg
-  artifactKey: Guid(4a72f597c19a3c745bf31742479babea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player2.jpg using Guid(4a72f597c19a3c745bf31742479babea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232612e7cbb06da3a3dcff6187de6033') in 0.030673 seconds 
-  Import took 0.032898 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.837 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
 
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1926.
+Total: 2.072800 ms (FindLiveObjects: 0.135900 ms CreateObjectMapping: 0.050200 ms MarkObjects: 1.863200 ms  DeleteObjects: 0.022400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.273291 seconds.
-  path: Assets/Resources/Frame.png
-  artifactKey: Guid(657bb863b45508f4abf4487275c79ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Frame.png using Guid(657bb863b45508f4abf4487275c79ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f56affd12ec789753a0a80c1886d12c') in 0.027089 seconds 
-  Import took 0.053487 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002311 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.846 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1495 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.032948 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
-  artifactKey: Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png using Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4521120ff3a008324f5908f6d1b61d5') in 0.025985 seconds 
-  Import took 0.035426 seconds .
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 1929.
+Total: 1.539500 ms (FindLiveObjects: 0.116000 ms CreateObjectMapping: 0.035200 ms MarkObjects: 1.373200 ms  DeleteObjects: 0.014600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.184308 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png
-  artifactKey: Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png using Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222cef5333b4526317cb0b724ee0bb1f') in 0.027075 seconds 
-  Import took 0.029252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.034936 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
-  artifactKey: Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png using Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2edc87bb5e3543c748651b43c9519b7') in 0.015313 seconds 
-  Import took 0.017450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.579906 seconds.
-  path: Assets/Hand Painted Seamless Wood Texture/Textures/Wood1.tga
-  artifactKey: Guid(631f4638e5d3f984f859365bccca3d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Painted Seamless Wood Texture/Textures/Wood1.tga using Guid(631f4638e5d3f984f859365bccca3d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23db7a063198a04eed10a6ae744f08bc') in 0.076841 seconds 
-  Import took 0.079033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107678 seconds.
-  path: Assets/Editor/com.unity.mobile.notifications
-  artifactKey: Guid(6d8e2e3178665be488e481c57be9527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/com.unity.mobile.notifications using Guid(6d8e2e3178665be488e481c57be9527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628c2095c47afdb532b31934c58c2539') in 0.005128 seconds 
-  Import took 0.007335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.329759 seconds.
-  path: Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset
-  artifactKey: Guid(45a04f37e0f48c744acc0874c4a8918a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/com.unity.mobile.notifications/NotificationSettings.asset using Guid(45a04f37e0f48c744acc0874c4a8918a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff55af553be75e1c08cd6cbfc2306e37') in 0.007691 seconds 
-  Import took 0.010038 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097507 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png
-  artifactKey: Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png using Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e15f612c667a361c01b4497b2b7b4f4') in 0.017114 seconds 
-  Import took 0.027493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016991 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png
-  artifactKey: Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png using Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07cfaa90d5d4847e67d89cacca2de96c') in 0.013642 seconds 
-  Import took 0.130720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.432769 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png
-  artifactKey: Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png using Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a943bc88f2694a0059859602a734091') in 0.017430 seconds 
-  Import took 0.019558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.224264 seconds.
-  path: Assets/Resources/CardBackPNG.png
-  artifactKey: Guid(a9fcca9721fc9694c82de10b30c49804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/CardBackPNG.png using Guid(a9fcca9721fc9694c82de10b30c49804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a6e22fc0b7e276c695f463784c9ad5') in 0.038586 seconds 
-  Import took 0.165931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005333 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(8778da0b119191345b3b31597eb1f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(8778da0b119191345b3b31597eb1f1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11761f2c5d1e2d3a4c18965d2176e68') in 0.004382 seconds 
-  Import took 0.013616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091812 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png
-  artifactKey: Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png using Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad56d6f60da9b51c219184d4a84d84c') in 0.013352 seconds 
-  Import took 0.023993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.187250 seconds.
-  path: Assets/HandPaintedRockTextures/Textures
-  artifactKey: Guid(4411a2ebdffa1e749b2ee875698c032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPaintedRockTextures/Textures using Guid(4411a2ebdffa1e749b2ee875698c032d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef38302f6ef3070155b1b190d97a2f4') in 0.003870 seconds 
-  Import took 0.047225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.204492 seconds.
-  path: Assets/Fantasy Wooden GUI  Free
-  artifactKey: Guid(c0e7fc73d04143d4386561cb6d84ed4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free using Guid(c0e7fc73d04143d4386561cb6d84ed4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18420fc6b92232e954b10bce1088238') in 0.005064 seconds 
-  Import took 0.013513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.065844 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png
-  artifactKey: Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png using Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98ab8ab1e4bc8eb14612f2c373b5cb86') in 0.016808 seconds 
-  Import took 0.108750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007236 seconds.
-  path: Assets/Hand Painted Seamless Wood Texture/Textures
-  artifactKey: Guid(bc30a6802bc4a7f44a2d0d2d8168d77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Painted Seamless Wood Texture/Textures using Guid(bc30a6802bc4a7f44a2d0d2d8168d77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd22933aa86f49929ee0c4cfd0bbb00') in 0.002163 seconds 
-  Import took 0.011576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.268968 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png
-  artifactKey: Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png using Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4047f21999bbb8c8cd8f1dd04d4d22') in 0.050161 seconds 
-  Import took 0.052440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.070174 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png
-  artifactKey: Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png using Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9647b7007588fc3bdb21990122ff8a06') in 0.014828 seconds 
-  Import took 0.036284 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.382725 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png
-  artifactKey: Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png using Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a666218e8f942abcab1b9a2fa15ebdd6') in 0.059572 seconds 
-  Import took 0.091182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.035344 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(1722e88667b597243bc3f2f6faa5ff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(1722e88667b597243bc3f2f6faa5ff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5218fcc7606334864e2e22e89bd8b7d9') in 0.004109 seconds 
-  Import took 0.014495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.090070 seconds.
-  path: Assets/FreeButtonSet/Textures/buttons/button_100.png
-  artifactKey: Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FreeButtonSet/Textures/buttons/button_100.png using Guid(47eaa4f43430bf14f996b113a313b0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef0f41cd0cb354517ac1c0cbf41ceaf1') in 0.039960 seconds 
-  Import took 0.066032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.238311 seconds.
-  path: Assets/Resources/ManaCrystal.png
-  artifactKey: Guid(88c08b96552c1194b9a4f825701b70b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ManaCrystal.png using Guid(88c08b96552c1194b9a4f825701b70b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4061cfc3253dd17e68c3a5a4a021598') in 0.022390 seconds 
-  Import took 0.052956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015323 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png
-  artifactKey: Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png using Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cea42bb76a31a822161612a3e7f9aca') in 0.012726 seconds 
-  Import took 0.015972 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.340287 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png
-  artifactKey: Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png using Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13f0a5163478c38f03b377375bc6f45') in 0.050016 seconds 
-  Import took 0.067009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.467666 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png
-  artifactKey: Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png using Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc97dce688d84d45609855238ef38c7d') in 0.013782 seconds 
-  Import took 0.016325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.246625 seconds.
-  path: Assets/Hand Painted Seamless Wood Texture/Textures/Wood2.tga
-  artifactKey: Guid(fa79f310fc4924e4cabca0791e343bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Painted Seamless Wood Texture/Textures/Wood2.tga using Guid(fa79f310fc4924e4cabca0791e343bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020708f562e1e264baa7fe47226c37a9') in 0.074419 seconds 
-  Import took 0.076550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005863 seconds.
-  path: Assets/Editor
-  artifactKey: Guid(9a2df797eb7ea8e44843144af9429b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor using Guid(9a2df797eb7ea8e44843144af9429b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a5c0b3c15402cd8db6f393951052e3') in 0.005256 seconds 
-  Import took 0.018337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072019 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png
-  artifactKey: Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png using Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f716cdeacaa2fb346e99d631231bdfcf') in 0.013747 seconds 
-  Import took 0.015955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.501655 seconds.
-  path: Assets/HandPaintedRockTextures/Textures/rock_05.png
-  artifactKey: Guid(9156ee8bb4e74ef4ba0c3fcfdaa351e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPaintedRockTextures/Textures/rock_05.png using Guid(9156ee8bb4e74ef4ba0c3fcfdaa351e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427ce104b58dc9b0406e4995463a7daf') in 0.064534 seconds 
-  Import took 0.119330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067945 seconds.
-  path: Assets/HandPaintedRockTextures
-  artifactKey: Guid(e0e7bac1b12d7074cac0e193509f0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPaintedRockTextures using Guid(e0e7bac1b12d7074cac0e193509f0177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fec12c79359cde7f43296c48033402') in 0.004445 seconds 
-  Import took 0.006674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.067424 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(f7b66c42ee145314083f073e99178630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(f7b66c42ee145314083f073e99178630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51602336e7d2d10a9dda8c438ed1d26b') in 0.014826 seconds 
-  Import took 0.092568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.066533 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A
-  artifactKey: Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A using Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38905648fffa3df323ff784bb7a0e983') in 0.004480 seconds 
-  Import took 0.007019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011350 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png
-  artifactKey: Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png using Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04e22e91d8bc0a5049a948d8c2764b9') in 0.056709 seconds 
-  Import took 0.099116 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054351 seconds.
-  path: Assets/HandPaintedRockTextures/Textures/rock_01.png
-  artifactKey: Guid(2475a17e78d48a649aeeffdfe16d448f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPaintedRockTextures/Textures/rock_01.png using Guid(2475a17e78d48a649aeeffdfe16d448f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b70b2d7192f6acd9a6bdd035640454') in 0.014304 seconds 
-  Import took 0.026262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027804 seconds.
-  path: Assets/Resources/Circle.png
-  artifactKey: Guid(3770bbc60d627384aa0e24cbbd8e8d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Circle.png using Guid(3770bbc60d627384aa0e24cbbd8e8d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295aa2462390047be57cac4667874700') in 0.152832 seconds 
-  Import took 0.167963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055959 seconds.
-  path: Assets/Resources/CardBackPNG2.png
-  artifactKey: Guid(d5da6671f629a13468477aeefd9d529b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/CardBackPNG2.png using Guid(d5da6671f629a13468477aeefd9d529b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c79bce3bf35f85ccf85a4903dc5f33') in 0.039281 seconds 
-  Import took 0.106909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.195220 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png
-  artifactKey: Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png using Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65aca8eb4e6a768b51c7527756e21021') in 0.046060 seconds 
-  Import took 0.072987 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056461 seconds.
-  path: Assets/Resources/background.png
-  artifactKey: Guid(f5a67c99ac388ef48a3da60ef2dc6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/background.png using Guid(f5a67c99ac388ef48a3da60ef2dc6871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc88dbda4b2eda028be440de0fc5baf') in 0.032006 seconds 
-  Import took 0.034286 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073102 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
-  artifactKey: Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png using Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e99e771a14bca07709f221ad2b9dc5') in 0.015310 seconds 
-  Import took 0.017550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.243797 seconds.
-  path: Assets/HandPaintedRockTextures/Textures/rock_03.png
-  artifactKey: Guid(a379581d046e0d94b92637b3e340c7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPaintedRockTextures/Textures/rock_03.png using Guid(a379581d046e0d94b92637b3e340c7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f57192022a4a44a33a2de7ac7a7325c5') in 0.014604 seconds 
-  Import took 0.016817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.335079 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
-  artifactKey: Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png using Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22211c8b1f8316ceea543262b3d8a5d0') in 0.042882 seconds 
-  Import took 0.045112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.082026 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png
-  artifactKey: Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png using Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd6d6c409eee3a784004a2cc75896dc') in 0.129871 seconds 
-  Import took 0.132228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.197930 seconds.
-  path: Assets/Hand Painted Seamless Wood Texture/Textures/Wood3.tga
-  artifactKey: Guid(3c63e2e318876fc4ebc6ba149de82007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Hand Painted Seamless Wood Texture/Textures/Wood3.tga using Guid(3c63e2e318876fc4ebc6ba149de82007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdd8a4c5d7f3f75fc887ddb3355cac77') in 0.029440 seconds 
-  Import took 0.032409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.131716 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png
-  artifactKey: Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png using Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28eef04f5c8313b68e1e471b037e7d90') in 0.160569 seconds 
-  Import took 0.183198 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.159296 seconds.
-  path: Assets/Resources/1.png
-  artifactKey: Guid(7ed1a9890515a0942b6893625230946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/1.png using Guid(7ed1a9890515a0942b6893625230946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7517dc0b0dd7bf6039ac3ab24855a668') in 0.022289 seconds 
-  Import took 0.024769 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059262 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
-  artifactKey: Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png using Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9af924bf89d41cee118ed620c222521') in 0.020999 seconds 
-  Import took 0.082322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058377 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc088d1731b590f9572c6f2bab98c6a') in 0.004329 seconds 
-  Import took 0.009797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.134769 seconds.
-  path: Assets/Resources/Player1.jpg
-  artifactKey: Guid(3fa291f14b029f84d9d6e27983eaf65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Player1.jpg using Guid(3fa291f14b029f84d9d6e27983eaf65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77906e2534d24b08f41b475858f74111') in 0.016056 seconds 
-  Import took 0.049055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.125158 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
-  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436eee524dfed7683049295881959bef') in 0.224387 seconds 
-  Import took 0.235021 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057393 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png
-  artifactKey: Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png using Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d2d717b03424c9e2677f0141cd64e2') in 0.105628 seconds 
-  Import took 0.107790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.172167 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png
-  artifactKey: Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png using Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935ce95b46ea26047e0108e3d39030a5') in 0.042658 seconds 
-  Import took 0.044820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049306 seconds.
-  path: Assets/Resources/CardBack.png
-  artifactKey: Guid(f2dd691343134844181626101cfd3cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/CardBack.png using Guid(f2dd691343134844181626101cfd3cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd061d0576e34395502986bdfb1e8347b') in 0.012985 seconds 
-  Import took 0.015113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.120866 seconds.
-  path: Assets/HandPaintedRockTextures/Textures/rock_02.png
-  artifactKey: Guid(71419a6826dd658419a0eb68a44a9cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HandPaintedRockTextures/Textures/rock_02.png using Guid(71419a6826dd658419a0eb68a44a9cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58d618e926e39e79ce8a9dc5eae780') in 0.139514 seconds 
-  Import took 0.141770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.132493 seconds.
-  path: Assets/Defer.unity
-  artifactKey: Guid(ace4d85e95a87c04cbff58143259754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Defer.unity using Guid(ace4d85e95a87c04cbff58143259754d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9ecf692e33b228d5d8bd27287b8406') in 0.004570 seconds 
-  Import took 0.006588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.375275 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
-  artifactKey: Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd using Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8743d8151eca0047512a115cfcfb07') in 0.179676 seconds 
-  Import took 0.190791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054542 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png
-  artifactKey: Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png using Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327abc553e8f54e4f36adb7557329865') in 0.014687 seconds 
-  Import took 0.051412 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

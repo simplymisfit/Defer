@@ -8,6 +8,13 @@ public class AI : MonoBehaviour
     public List<Card> container = new List<Card>();
     public static List<Card> staticEnemyDeck = new List<Card>();
 
+
+    public List<Card> cardsInHand = new List<Card>();
+    public bool AiCanPlay;
+
+
+
+
     public GameObject Hand;
     public GameObject Zone;
     public GameObject Graveyard;
@@ -31,6 +38,10 @@ public class AI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
+        StartCoroutine(WaitFiveSeconds());
+
+
         StartCoroutine(StartGame());
 
         Hand = GameObject.Find("Enemy Hand");
@@ -76,6 +87,16 @@ public class AI : MonoBehaviour
             StartCoroutine(Draw(ThisCard.drawX));
             draw = true;
         }
+        if(AiCanPlay == true)
+        {
+            for (int i = 0; i < 40; i++)
+            {
+                if(AICardToHand.cardsInHandStatic[i].id != 0)
+                {
+                    cardsInHand[i] = AICardToHand.cardsInHandStatic[i];
+                }
+            }
+        }
     }
 
     public void Shuffle()
@@ -120,5 +141,11 @@ public class AI : MonoBehaviour
             yield return new WaitForSeconds(1);
             Instantiate(CardToHand, transform.position, transform.rotation);
         }
+    }
+
+    IEnumerator WaitFiveSeconds()
+    {
+        yield return new WaitForSeconds(5);
+        AiCanPlay = true;
     }
 }
