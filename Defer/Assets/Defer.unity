@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7921,7 +7921,6 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
-  AiCanPlay: 0
   Hand: {fileID: 0}
   Zone: {fileID: 0}
   Graveyard: {fileID: 0}
@@ -7935,6 +7934,17 @@ MonoBehaviour:
   Clones: []
   CardBack: {fileID: 8878848032941205257, guid: 70c9314d406817a4cbc747e7eb41b4c1,
     type: 3}
+  currentMana: 0
+  AiCanSummon: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  drawPhase: 0
+  summonPhase: 0
+  attackPhase: 0
+  endPhase: 0
+  cardsID: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  summonThisId: 0
+  aiCardToHand: {fileID: 0}
+  summonID: 0
+  howManyCards: 0
 --- !u!114 &2092564002
 MonoBehaviour:
   m_ObjectHideFlags: 0
