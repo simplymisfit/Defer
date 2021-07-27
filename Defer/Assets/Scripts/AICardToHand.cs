@@ -46,6 +46,12 @@ public class AICardToHand : MonoBehaviour
     public GameObject It;
 
     public int numberOfCardsInDeck;
+
+    public bool isTarget;
+    public GameObject Graveyard;
+
+    public bool thisCardCanBeDestroyed;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,6 +61,8 @@ public class AICardToHand : MonoBehaviour
         z = 0;
         numberOfCardsInDeck = AI.deckSize;
 
+        Graveyard = GameObject.Find("Enemy Graveyard");
+        StartCoroutine(AfterVoidStart());
     }
 
     // Update is called once per frame
@@ -122,5 +130,27 @@ public class AICardToHand : MonoBehaviour
             this.tag = "Untagged";
         }
 
+        if (hurted >= attack && thisCardCanBeDestroyed == true)
+        {
+            this.transform.SetParent(Graveyard.transform);
+            hurted = 0;
+        }
+
+    }
+
+    public void BeingTarget()
+    {
+        isTarget = true;
+    }
+
+    public void NotBeingTarget()
+    {
+        isTarget = false;
+    }
+
+    IEnumerator AfterVoidStart()
+    {
+        yield return new WaitForSeconds(1);
+        thisCardCanBeDestroyed = true;
     }
 }

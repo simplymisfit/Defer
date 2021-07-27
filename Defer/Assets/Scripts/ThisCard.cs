@@ -71,6 +71,8 @@ public class ThisCard : MonoBehaviour
     public int healXpower;
     public bool canHeal;
 
+    public GameObject EnemyZone;
+    public AICardToHand aiCardToHand;
 
     //public TurnSystem turnSystem;
 
@@ -93,6 +95,8 @@ public class ThisCard : MonoBehaviour
         targetingEnemy = false;
 
         canHeal = true;
+
+        EnemyZone = GameObject.Find("Enemy Zone");
     }
 
     // Update is called once per frame
@@ -218,7 +222,7 @@ public class ThisCard : MonoBehaviour
         {
             Target = null;
         }
-        if(targeting==true && targetingEnemy == true && onlyThisCardAttack == true)
+        if(targeting==true && onlyThisCardAttack == true)
         {
             Attack();
         }
@@ -277,10 +281,18 @@ public class ThisCard : MonoBehaviour
                     EnemyHp.staticHp -= attack;
                     targeting = false;
                     cantAttack = true;
-                }   
-                if (Target.name == "CardToHand(Clone)")
+                }
+            }
+            else
+            {
+                foreach (Transform child in EnemyZone.transform)
                 {
-                    canAttack = true;
+                    if (child.GetComponent<AICardToHand>().isTarget == true)
+                    {
+                        child.GetComponent<AICardToHand>().hurted = attack;
+                        hurted = child.GetComponent<AICardToHand>().attack;
+                        cantAttack = true;
+                    }
                 }
             }
         }
