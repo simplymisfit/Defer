@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 8878848032941205256}
   - component: {fileID: 8878848032941205366}
   - component: {fileID: 8878848032941205367}
-  - component: {fileID: 6376603045773007524}
   - component: {fileID: -7440047708485928179}
+  - component: {fileID: -1471104499867400227}
+  - component: {fileID: 2716968814627128489}
   m_Layer: 5
   m_Name: CardBack
   m_TagString: Clone
@@ -36,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1667.0374, y: 375}
+  m_AnchoredPosition: {x: 1671.41, y: 375}
   m_SizeDelta: {x: 639, y: 839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8878848032941205366
@@ -77,19 +78,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &6376603045773007524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8878848032941205257}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b3d84cd7775fbf8439e7744b8d029b13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardBack: {fileID: 8878848032941205257}
 --- !u!114 &-7440047708485928179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,3 +92,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Deck: {fileID: 0}
   It: {fileID: 8878848032941205257}
+--- !u!114 &-1471104499867400227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8878848032941205257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: 1
+  m_FlexibleHeight: 1
+  m_LayoutPriority: 1
+--- !u!225 &2716968814627128489
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8878848032941205257}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0

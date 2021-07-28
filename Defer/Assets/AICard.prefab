@@ -1202,6 +1202,8 @@ MonoBehaviour:
   isTarget: 0
   Graveyard: {fileID: 0}
   thisCardCanBeDestroyed: 0
+  cardBack: {fileID: 3542201834888445370}
+  AiZone: {fileID: 0}
 --- !u!114 &-6080004946998694689
 MonoBehaviour:
   m_ObjectHideFlags: 0

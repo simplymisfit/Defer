@@ -29,6 +29,11 @@ public class PlayerDeck : MonoBehaviour
     public GameObject LoseTextGameObject;
 
     // Start is called before the first frame update
+
+    void Awake()
+    {
+        Shuffle();
+    }
     void Start()
     {
         x = 0;
@@ -36,7 +41,7 @@ public class PlayerDeck : MonoBehaviour
 
         for (int i = 0; i < deckSize; i++)
         {
-            x = Random.Range(1, 5);
+            x = Random.Range(1, 8);
             deck[i] = CardDatabase.cardList[x];
         }
 

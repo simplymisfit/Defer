@@ -52,7 +52,11 @@ public class AI : MonoBehaviour
 
     public int howManyCards;
 
-
+    void Awake()
+    {
+        Shuffle();
+    }
+    
     // Start is called before the first frame update
     void Start()
     {

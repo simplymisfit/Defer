@@ -52,6 +52,10 @@ public class AICardToHand : MonoBehaviour
 
     public bool thisCardCanBeDestroyed;
 
+    public GameObject cardBack;
+    public GameObject AiZone;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,6 +67,8 @@ public class AICardToHand : MonoBehaviour
 
         Graveyard = GameObject.Find("Enemy Graveyard");
         StartCoroutine(AfterVoidStart());
+
+        AiZone = GameObject.Find("Enemy Zone");
     }
 
     // Update is called once per frame
@@ -134,6 +140,15 @@ public class AICardToHand : MonoBehaviour
         {
             this.transform.SetParent(Graveyard.transform);
             hurted = 0;
+        }
+
+        if(this.transform.parent == Hand.transform)
+        {
+            cardBack.SetActive(true);
+        }
+        if(this.transform.parent == AiZone.transform)
+        {
+            cardBack.SetActive(false);
         }
 
     }

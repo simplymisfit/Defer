@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2805,7 +2805,7 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
-  x: 3
+  x: 0
   cardInDeck1: {fileID: 1219276505}
   cardInDeck2: {fileID: 1248422439}
   cardInDeck3: {fileID: 2038603038}
@@ -7980,7 +7980,7 @@ MonoBehaviour:
   CardToHand: {fileID: 5269360944077975637, guid: 787a198b5745d62438a0220ea225e11d,
     type: 3}
   Clones: []
-  CardBack: {fileID: 8878848032941205257, guid: 70c9314d406817a4cbc747e7eb41b4c1,
+  CardBack: {fileID: 8878848032941205257, guid: d90607f4cfd90c348a50ec13aaac4518,
     type: 3}
   currentMana: 0
   AiCanSummon: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
