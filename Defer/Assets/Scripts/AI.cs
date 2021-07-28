@@ -11,6 +11,7 @@ public class AI : MonoBehaviour
 
     public List<Card> cardsInHand = new List<Card>();
 
+    public List<Card> cardsInZone = new List<Card>();
 
     public GameObject Hand;
     public GameObject Zone;
@@ -51,6 +52,10 @@ public class AI : MonoBehaviour
     public int summonID;
 
     public int howManyCards;
+
+    public bool[] canAttack;
+    public static bool AiEndPhase;
+
 
     void Awake()
     {
@@ -222,6 +227,74 @@ public class AI : MonoBehaviour
 
             summonPhase = false;
             attackPhase = true;
+        }
+
+        if (0 == 0)
+        {
+            int k = 0;
+            int howManyCards2 = 0;
+            foreach (Transform child in Zone.transform)
+            {
+                howManyCards2++;
+            }
+            foreach (Transform child in Zone.transform)
+            {
+                canAttack[k] = child.GetComponent<AICardToHand>().canAttack;
+                k++;
+            }
+
+            for (int i = 0; i < 40; i++)
+            {
+                if (i >= howManyCards2)
+                {
+                    canAttack[i] = false;
+                }
+            }
+
+            k = 0;
+        }
+
+        if (0 == 0)
+        {
+            int l = 0;
+            int howManyCards3 = 0;
+            foreach (Transform child in Zone.transform)
+            {
+                howManyCards3++;
+            }
+            foreach (Transform child in Zone.transform)
+            {
+                cardsInZone[l] = child.GetComponent<AICardToHand>().thisCard[0];
+                l++;
+            }
+
+            for (int i = 0; i < 40; i++)
+            {
+                if (i >= howManyCards3)
+                {
+                    cardsInHand[i] = CardDatabase.cardList[0];
+                }
+            }
+
+            l = 0;
+        }
+
+        if(attackPhase == true && endPhase == false)
+        {
+            for (int i = 0; i < 40; i++)
+            {
+                if (canAttack[i] == true)
+                {
+                    PlayerHp.staticHp -= cardsInZone[i].attack;
+                }
+            }
+
+            endPhase = true;
+        }
+
+        if (endPhase == true)
+        {
+            AiEndPhase = true;
         }
 
     }

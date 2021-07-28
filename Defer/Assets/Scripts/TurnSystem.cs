@@ -89,6 +89,12 @@ public class TurnSystem : MonoBehaviour
             seconds = 60;
         }
         enemyManaText.text = currentEnemyMana + "/" + maxEnemyMana;
+
+        if (AI.AiEndPhase == true)
+        {
+            EndYourOpponentTurn();
+            AI.AiEndPhase = false;
+        }
     }
 
     public void EndYourTurn()
@@ -97,7 +103,7 @@ public class TurnSystem : MonoBehaviour
         yourOpponentTurn += 1;
 
         maxEnemyMana += 1;
-        currentEnemyMana += 1;
+        currentEnemyMana = maxEnemyMana;
 
         AI.draw = false;
     }

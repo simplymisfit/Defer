@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2324,6 +2324,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2336,6 +2338,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2348,6 +2352,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2360,6 +2366,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2372,6 +2380,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2384,6 +2394,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2396,6 +2408,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2408,6 +2422,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2420,6 +2436,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2432,6 +2450,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2444,6 +2464,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2456,6 +2478,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2468,6 +2492,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2480,6 +2506,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2492,6 +2520,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2504,6 +2534,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2516,6 +2548,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2528,6 +2562,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2540,6 +2576,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2552,6 +2590,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2564,6 +2604,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2576,6 +2618,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2588,6 +2632,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2600,6 +2646,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2612,6 +2660,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2624,6 +2674,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2636,6 +2688,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2648,6 +2702,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2660,6 +2716,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2672,6 +2730,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2684,6 +2744,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2696,6 +2758,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2708,6 +2772,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2720,6 +2786,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2732,6 +2800,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2744,6 +2814,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2756,6 +2828,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2768,6 +2842,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2780,6 +2856,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -2792,6 +2870,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   container:
   - id: 0
     cardName: 
@@ -2805,6 +2885,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   x: 0
   cardInDeck1: {fileID: 1219276505}
   cardInDeck2: {fileID: 1248422439}
@@ -4698,7 +4780,7 @@ PrefabInstance:
     - target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: thisId
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
@@ -7007,6 +7089,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7019,6 +7103,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7031,6 +7117,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7043,6 +7131,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7055,6 +7145,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7067,6 +7159,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7079,6 +7173,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7091,6 +7187,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7103,6 +7201,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7115,6 +7215,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7127,6 +7229,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7139,6 +7243,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7151,6 +7257,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7163,6 +7271,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7175,6 +7285,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7187,6 +7299,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7199,6 +7313,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7211,6 +7327,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7223,6 +7341,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7235,6 +7355,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7247,6 +7369,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7259,6 +7383,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7271,6 +7397,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7283,6 +7411,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7295,6 +7425,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7307,6 +7439,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7319,6 +7453,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7331,6 +7467,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7343,6 +7481,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7355,6 +7495,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7367,6 +7509,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7379,6 +7523,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7391,6 +7537,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7403,6 +7551,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7415,6 +7565,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7427,6 +7579,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7439,6 +7593,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7451,6 +7607,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7463,6 +7621,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7475,6 +7635,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   container:
   - id: 0
     cardName: 
@@ -7488,6 +7650,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   cardsInHand:
   - id: 0
     cardName: 
@@ -7501,6 +7665,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7513,6 +7679,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7525,6 +7693,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7537,6 +7707,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7549,6 +7721,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7561,6 +7735,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7573,6 +7749,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7585,6 +7763,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7597,6 +7777,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7609,6 +7791,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7621,6 +7805,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7633,6 +7819,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7645,6 +7833,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7657,6 +7847,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7669,6 +7861,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7681,6 +7875,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7693,6 +7889,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7705,6 +7903,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7717,6 +7917,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7729,6 +7931,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7741,6 +7945,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7753,6 +7959,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7765,6 +7973,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7777,6 +7987,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7789,6 +8001,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7801,6 +8015,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7813,6 +8029,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7825,6 +8043,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7837,6 +8057,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7849,6 +8071,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7861,6 +8085,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7873,6 +8099,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7885,6 +8113,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7897,6 +8127,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7909,6 +8141,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7921,6 +8155,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7933,6 +8169,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7945,6 +8183,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7957,6 +8197,8 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   - id: 0
     cardName: 
     cost: 0
@@ -7969,6 +8211,569 @@ MonoBehaviour:
     color: 
     returnXcards: 0
     healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  cardsInZone:
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
+  - id: 0
+    cardName: 
+    cost: 0
+    attack: 0
+    health: 0
+    cardDescription: 
+    drawXcards: 0
+    addXmaxMana: 0
+    thisImage: {fileID: 0}
+    color: 
+    returnXcards: 0
+    healXpower: 0
+    spell: 0
+    damageDealBySpell: 0
   Hand: {fileID: 0}
   Zone: {fileID: 0}
   Graveyard: {fileID: 0}
@@ -7993,6 +8798,7 @@ MonoBehaviour:
   aiCardToHand: {fileID: 0}
   summonID: 0
   howManyCards: 0
+  canAttack: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!114 &2092564002
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -55,6 +55,8 @@ public class AICardToHand : MonoBehaviour
     public GameObject cardBack;
     public GameObject AiZone;
 
+    public bool canAttack;
+    public bool summoningSickness;
 
     // Start is called before the first frame update
     void Start()
@@ -69,6 +71,8 @@ public class AICardToHand : MonoBehaviour
         StartCoroutine(AfterVoidStart());
 
         AiZone = GameObject.Find("Enemy Zone");
+
+        summoningSickness = true;
     }
 
     // Update is called once per frame
@@ -149,6 +153,20 @@ public class AICardToHand : MonoBehaviour
         if(this.transform.parent == AiZone.transform)
         {
             cardBack.SetActive(false);
+        }
+
+        if (TurnSystem.isYourTurn == false && summoningSickness == false)
+        {
+            canAttack = true;
+        }
+        else
+        {
+            canAttack = false;
+        }
+
+        if (TurnSystem.isYourTurn == true && this.transform.parent == AiZone.transform)
+        {
+            summoningSickness = false;
         }
 
     }
