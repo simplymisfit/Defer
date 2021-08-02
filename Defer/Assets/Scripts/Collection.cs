@@ -10,7 +10,7 @@ public class Collection : MonoBehaviour
     public GameObject CardThree;
     public GameObject CardFour;
 
-    public int x;
+    public static int x;
 
     public int[] HowManyCards;
 
