@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -168,12 +168,12 @@ PrefabInstance:
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 190.618
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 294.8846
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
@@ -434,12 +434,12 @@ PrefabInstance:
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 185.509
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 291.4785
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
@@ -704,12 +704,17 @@ MonoBehaviour:
   CardTwo: {fileID: 161551973}
   CardThree: {fileID: 1348558352}
   CardFour: {fileID: 861280841}
-  x: 0
   HowManyCards: 0000000002000000000000000400000003000000010000000200000000000000
   CardOneText: {fileID: 259464714}
   CardTwoText: {fileID: 727167471}
   CardThreeText: {fileID: 2033150310}
   CardFourText: {fileID: 1922963979}
+  CardFive: {fileID: 0}
+  openPack: 0
+  o: 
+  oo: 0
+  rand: 0
+  card: 
 --- !u!114 &241616372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -743,8 +748,8 @@ MonoBehaviour:
   m_Spacing: -500
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
-  m_ChildControlWidth: 1
-  m_ChildControlHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
@@ -1418,12 +1423,12 @@ PrefabInstance:
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 188.915
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 291.4786
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
@@ -2332,12 +2337,12 @@ PrefabInstance:
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 195.7271
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 288.0725
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}

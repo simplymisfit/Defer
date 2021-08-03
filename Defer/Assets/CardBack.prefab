@@ -14,13 +14,14 @@ GameObject:
   - component: {fileID: -7440047708485928179}
   - component: {fileID: -1471104499867400227}
   - component: {fileID: 2716968814627128489}
+  - component: {fileID: 8869161790028933120}
   m_Layer: 5
   m_Name: CardBack
   m_TagString: Clone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &8878848032941205256
 RectTransform:
   m_ObjectHideFlags: 0
@@ -37,7 +38,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1671.41, y: 375}
+  m_AnchoredPosition: {x: 1667.0374, y: 375}
   m_SizeDelta: {x: 639, y: 839}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8878848032941205366
@@ -85,7 +86,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8878848032941205257}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 801bde4dfa43f1047927b2c5cdcba157, type: 3}
   m_Name: 
@@ -124,3 +125,18 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &8869161790028933120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8878848032941205257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6d0c574e25868247a9a79c74b4cb27d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 0}
+  x: 0
+  obj: {fileID: 8878848032941205257}
