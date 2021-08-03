@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Collection.unity
+    guid: 07fc48444540fe440ba3e7bdee681bb7
+  - enabled: 1
+    path: Assets/Scenes/CreatingDeck.unity
+    guid: 58c5a44737534f14d83cda51dde3a876
+  - enabled: 1
+    path: Assets/Scenes/Defer.unity
+    guid: ace4d85e95a87c04cbff58143259754d
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: c62f75d7d81f7c64eb21b4eff51add09
   m_configObjects: {}
