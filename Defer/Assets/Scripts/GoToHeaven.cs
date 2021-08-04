@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class GoToHeaven : MonoBehaviour
 {
@@ -21,6 +23,8 @@ public class GoToHeaven : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(SceneManager.GetActiveScene().name != "Defer")
+
         this.transform.position = new Vector3(transform.position.x, x+= 500 * Time.deltaTime, transform.position.z);
     }
 

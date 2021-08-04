@@ -42,13 +42,6 @@ public class PlayerDeck : MonoBehaviour
     {
         x = 0; 
         deckSize = 40;
-
-        /*for (int i = 0; i < deckSize; i++)
-        {
-            x = Random.Range(1, 8);
-            deck[i] = CardDatabase.cardList[x];
-        }*/
-
         for (int i = 1; i <= 8; i++)
         {
             if(PlayerPrefs.GetInt("deck" + i,0) > 0)
@@ -59,10 +52,6 @@ public class PlayerDeck : MonoBehaviour
                     x++;
                 }
             }
-/*            else if (PlayerPrefs.GetInt("deck" + i, 0) == 1)
-            {
-
-            }*/
         }
         Shuffle();
         StartCoroutine(StartGame());
@@ -106,6 +95,17 @@ public class PlayerDeck : MonoBehaviour
         }
         if (TurnSystem.startTurn == true)
         {
+
+            if(CardsInHand.howMany < 10)
+            {
+                StartCoroutine(Draw(1));
+            }
+            else
+            {
+
+            }
+
+
             StartCoroutine(Draw(1));
             TurnSystem.startTurn = false;
         }
