@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerDeck : MonoBehaviour
 {
@@ -27,6 +28,9 @@ public class PlayerDeck : MonoBehaviour
 
     public Text LoseText;
     public GameObject LoseTextGameObject;
+
+    public GameObject concedeWindow;
+    public string menu = "Menu";
 
     // Start is called before the first frame update
 
@@ -150,5 +154,31 @@ public class PlayerDeck : MonoBehaviour
             yield return new WaitForSeconds(1);
             Instantiate(CardToHand, transform.position, transform.rotation);
         }
+    }
+
+    public void OpenWindow()
+    {
+        concedeWindow.SetActive(true);
+    }
+
+    public void CloseWindow()
+    {
+        concedeWindow.SetActive(false);
+    }
+
+    public void ConcedeDefeat()
+    {
+        StartCoroutine(EndGame());
+    }
+
+    IEnumerator EndGame()
+    {
+        LoseTextGameObject.SetActive(true);
+        LoseText.text = "You Lose :(";
+        concedeWindow.SetActive(false);
+
+        yield return new WaitForSeconds(2.5f);
+
+        SceneManager.LoadScene(menu);
     }
 }

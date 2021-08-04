@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Collection.unity
+- path: Assets/Scenes/Defer.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

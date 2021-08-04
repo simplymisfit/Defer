@@ -15,6 +15,8 @@ public class Shop : MonoBehaviour
     void Start()
     {
         gold = 750;
+
+        gold = PlayerPrefs.GetInt("gold", 750);
     }
 
     // Update is called once per frame
@@ -26,6 +28,9 @@ public class Shop : MonoBehaviour
     public void BuyPack()
     {
         gold -= 100;
+
+        PlayerPrefs.SetInt("gold", gold);
+
         SceneManager.LoadScene("OpenPack");
     }
 }

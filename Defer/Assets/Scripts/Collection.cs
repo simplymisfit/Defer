@@ -32,10 +32,10 @@ public class Collection : MonoBehaviour
     void Start()
     {
         x = 1;
-/*        for (int i = 1; i <= 9; i++)
+        for (int i = 1; i <= 8; i++)
         {
             HowManyCards[i] = PlayerPrefs.GetInt("x" + i, 0);
-        }*/
+        }
 
         if (openPack == true)
         {
