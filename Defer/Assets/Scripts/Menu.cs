@@ -10,6 +10,7 @@ public class Menu : MonoBehaviour
     public string deck;
     public string collection;
     public string settings;
+    public string shop;
 
     public string menu;
     // Start is called before the first frame update
@@ -35,6 +36,10 @@ public class Menu : MonoBehaviour
     public void LoadCollection()
     {
         SceneManager.LoadScene(collection);
+    }
+    public void LoadShop()
+    {
+        SceneManager.LoadScene(shop);
     }
     public void ReturnToMenu()
     {
