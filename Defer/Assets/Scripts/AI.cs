@@ -109,11 +109,19 @@ public class AI : MonoBehaviour
             cardInDeck4.SetActive(false);
         }
 
-        if (ThisCard.drawX > 0)
+/*        if (ThisCard.drawX > 0)
         {
             StartCoroutine(Draw(ThisCard.drawX));
             draw = true;
+        }*/
+
+
+        if(AICardToHand.DrawX > 0)
+        {
+            StartCoroutine(Draw(AICardToHand.DrawX));
+            AICardToHand.DrawX = 0;
         }
+
 
         if (TurnSystem.startTurn == false && draw == false)
         {
