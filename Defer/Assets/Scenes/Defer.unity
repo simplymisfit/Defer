@@ -3320,8 +3320,7 @@ MonoBehaviour:
   CardBack: {fileID: 8878848032941205257, guid: 70c9314d406817a4cbc747e7eb41b4c1,
     type: 3}
   Deck: {fileID: 856342260}
-  Clones:
-  - {fileID: 0}
+  Clones: []
   Hand: {fileID: 498025790}
   LoseText: {fileID: 1679172230}
   LoseTextGameObject: {fileID: 1679172228}

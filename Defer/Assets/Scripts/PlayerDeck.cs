@@ -96,7 +96,7 @@ public class PlayerDeck : MonoBehaviour
         if (TurnSystem.startTurn == true)
         {
 
-            if(CardsInHand.howMany < 10)
+            if(CardsInHand.howMany < 5)
             {
                 StartCoroutine(Draw(1));
             }

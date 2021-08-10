@@ -365,7 +365,7 @@ public class ThisCard : MonoBehaviour
     public void Destroy()
     {
         Graveyard = GameObject.Find("My Graveyard");
-        canBeDestroyed = true; //just a test
+        //canBeDestroyed = true; //just a test
         if(canBeDestroyed == true)
         {
             this.transform.SetParent(Graveyard.transform);
