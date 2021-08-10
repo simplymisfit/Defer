@@ -185,6 +185,17 @@ public class AICardToHand : MonoBehaviour
                 isSummoned = true;
 
             }
+
+            if (id == 2)
+            {
+                TurnSystem.maxEnemyMana += 1;
+                isSummoned = true;
+            }
+            if (id == 3)
+            {
+                TurnSystem.maxEnemyMana += 3;
+                isSummoned = true;
+            }
         }
 
     }

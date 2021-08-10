@@ -82,7 +82,7 @@ public class AI : MonoBehaviour
 
         for(int i = 0; i < deckSize; i++)
         {
-            x = Random.Range(1,5);
+            x = Random.Range(2,4);
             deck[i] = CardDatabase.cardList[x];
         }
     }
