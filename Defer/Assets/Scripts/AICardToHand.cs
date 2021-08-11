@@ -61,6 +61,9 @@ public class AICardToHand : MonoBehaviour
     public bool isSummoned;
     public GameObject battleZone;
 
+    public int healXpower;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -119,8 +122,9 @@ public class AICardToHand : MonoBehaviour
         descriptionText.text = "" + cardDescription;
 
 
-
         thatImage.sprite = thisSprite;
+
+        healXpower = thisCard[0].healXpower;
 
         if (thisCard[0].color == "Red")
         {
@@ -196,6 +200,16 @@ public class AICardToHand : MonoBehaviour
                 TurnSystem.maxEnemyMana += 3;
                 isSummoned = true;
             }
+
+            if(healXpower > 0)
+            {
+                EnemyHp.staticHp += healXpower;
+                isSummoned = true;
+
+            }
+
+            isSummoned = true;
+
         }
 
     }

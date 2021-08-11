@@ -56,6 +56,7 @@ public class AI : MonoBehaviour
     public bool[] canAttack;
     public static bool AiEndPhase;
 
+    public static int whichEnemy;
 
     void Awake()
     {
@@ -69,7 +70,7 @@ public class AI : MonoBehaviour
         StartCoroutine(WaitFiveSeconds());
 
 
-        StartCoroutine(StartGame());
+        //StartCoroutine(StartGame());
 
         Hand = GameObject.Find("Enemy Hand");
         Zone = GameObject.Find("Enemy Zone");
@@ -80,11 +81,43 @@ public class AI : MonoBehaviour
 
         draw = true;
 
-        for(int i = 0; i < deckSize; i++)
+/*        for(int i = 0; i < deckSize; i++)
         {
             x = Random.Range(2,4);
             deck[i] = CardDatabase.cardList[x];
+        }*/
+
+
+        if(whichEnemy == 1)
+        {
+            for (int i = 0; i < deckSize; i++)
+            {
+                if (i<=19)
+                {
+                    deck[i] = CardDatabase.cardList[2];
+                }
+                else
+                {
+                    deck[i] = CardDatabase.cardList[3];
+                }
+            }
         }
+        if (whichEnemy == 2)
+        {
+            for (int i = 0; i < deckSize; i++)
+            {
+                if (i <= 19)
+                {
+                    deck[i] = CardDatabase.cardList[1];
+                }
+                else
+                {
+                    deck[i] = CardDatabase.cardList[1];
+                }
+            }
+        }
+        Shuffle();
+        StartCoroutine(StartGame());
     }
 
     // Update is called once per frame
