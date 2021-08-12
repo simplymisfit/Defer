@@ -14,8 +14,6 @@ public class Menu : MonoBehaviour
 
     public string menu;
 
-    
-
 
 
     // Start is called before the first frame update
@@ -46,6 +44,7 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(shop);
     }
+
     public void ReturnToMenu()
     {
         SceneManager.LoadScene(menu);

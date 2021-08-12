@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class OpenPack : MonoBehaviour
 {
@@ -19,6 +20,9 @@ public class OpenPack : MonoBehaviour
     public GameObject c4;
     public GameObject c5;
 
+    public string shop;
+
+    public int clickedCards;
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +44,16 @@ public class OpenPack : MonoBehaviour
         }
 
         updated -= 50 * Time.deltaTime;
+
+        if (clickedCards == 5)
+        {
+            StartCoroutine(Return());
+        }
+    }
+
+    public void Click()
+    {
+        clickedCards++;
     }
 
     IEnumerator Wait()
@@ -68,6 +82,12 @@ public class OpenPack : MonoBehaviour
         c4.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         c5.SetActive(true);
+    }
+
+    IEnumerator Return()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(shop);
     }
 
 }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -241,6 +241,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 293433879}
+        m_TargetAssemblyTypeName: OpenPack, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &25436943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -385,6 +397,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 293433879}
+        m_TargetAssemblyTypeName: OpenPack, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &61461051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -509,6 +533,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 293433879}
+        m_TargetAssemblyTypeName: OpenPack, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -677,6 +713,8 @@ MonoBehaviour:
   c3: {fileID: 837800389}
   c4: {fileID: 1775341550}
   c5: {fileID: 1185252422}
+  shop: Shop
+  clickedCards: 0
 --- !u!114 &293433880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1013,6 +1051,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 293433879}
+        m_TargetAssemblyTypeName: OpenPack, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1511,7 +1561,7 @@ PrefabInstance:
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -300
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
@@ -2366,7 +2416,7 @@ PrefabInstance:
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -650
+      value: -275
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
@@ -2510,7 +2560,7 @@ PrefabInstance:
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 50
+      value: 91.66666
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551478, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
@@ -2850,6 +2900,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 293433879}
+        m_TargetAssemblyTypeName: OpenPack, Assembly-CSharp
+        m_MethodName: Click
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
