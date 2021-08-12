@@ -60,14 +60,14 @@ public class AI : MonoBehaviour
 
     void Awake()
     {
-        Shuffle();
+        //Shuffle();
     }
     
     // Start is called before the first frame update
     void Start()
     {
 
-        StartCoroutine(WaitFiveSeconds());
+       // StartCoroutine(WaitFiveSeconds());
 
 
         //StartCoroutine(StartGame());
@@ -352,7 +352,7 @@ public class AI : MonoBehaviour
 
         Instantiate(CardBack, transform.position, transform.rotation);
 
-        StartCoroutine(ShuffleNow());
+        //StartCoroutine(ShuffleNow());
     }
 
     IEnumerator StartGame()
