@@ -365,14 +365,34 @@ public class ThisCard : MonoBehaviour
     public void Destroy()
     {
         Graveyard = GameObject.Find("My Graveyard");
-        //canBeDestroyed = true; //just a test
+        canBeDestroyed = true; //just a test
         if(canBeDestroyed == true)
         {
-            this.transform.SetParent(Graveyard.transform);
-            canBeDestroyed = false;
-            summoned = false;
-            beInGraveyard = true;
-            hurted = 0;
+            /*            this.transform.SetParent(Graveyard.transform);
+                        canBeDestroyed = false;
+                        summoned = false;
+                        beInGraveyard = true;
+                        hurted = 0;*/
+
+            for (int i = 0; i < 40; i++)
+            {
+                if (Graveyard.GetComponent<GraveyardScript>().graveyard[i].id == 0)
+                {
+                    Graveyard.GetComponent<GraveyardScript>().graveyard[i] = CardDatabase.cardList[id];
+
+                    canBeDestroyed = false;
+                    summoned = false;
+                    beInGraveyard = true;
+
+                    hurted = 0;
+
+                    transform.SetParent(Graveyard.transform);
+
+                    transform.position = new Vector3(transform.position.x + 4000, transform.position.y, transform.position.z);//Hidden outside of canvas, but not disabled
+
+                    break;
+                }
+            }
         }
     }
     public void Return(int x)
