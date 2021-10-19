@@ -11,6 +11,7 @@ public class Collection : MonoBehaviour
     public GameObject CardFour;
 
     public static int x;
+    public bool notBeCollection;
 
     public int[] HowManyCards;
 
@@ -26,6 +27,9 @@ public class Collection : MonoBehaviour
     public int oo;
     public int rand;
     public string card;
+
+    public int cardsInCollection;
+    public int numberOfCardsOnPage;
 
 
     // Start is called before the first frame update
@@ -44,6 +48,9 @@ public class Collection : MonoBehaviour
                 getRandomCard();
             }
         }
+
+        cardsInCollection = 8;
+        numberOfCardsOnPage = 4;
     }
 
     // Update is called once per frame
@@ -101,7 +108,11 @@ public class Collection : MonoBehaviour
 
         for (int i = 1; i <= 8; i++)
         {
-            PlayerPrefs.SetInt("x" + i, HowManyCards[i]);
+            if (notBeCollection == false)
+            {
+                PlayerPrefs.SetInt("x" + i, HowManyCards[i]);
+            }
+            
         }
 
         if (openPack == true)
@@ -116,12 +127,18 @@ public class Collection : MonoBehaviour
     }
     public void Left()
     {
-        x -= 4;
+        if (x != 1)
+        {
+            x -= numberOfCardsOnPage;
+        }
     }
 
     public void Right()
     {
-        x += 4;
+        if (x != (cardsInCollection - numberOfCardsOnPage) + 1)
+        {
+            x += numberOfCardsOnPage;
+        }
     }
     /*###################################################*/
     public void Card1Minus()

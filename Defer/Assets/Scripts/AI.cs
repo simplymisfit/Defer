@@ -112,7 +112,8 @@ public class AI : MonoBehaviour
                 }
                 else
                 {
-                    deck[i] = CardDatabase.cardList[1];
+                    //deck[i] = CardDatabase.cardList[1];
+                    deck[i] = CardDatabase.cardList[4];
                 }
             }
         }
