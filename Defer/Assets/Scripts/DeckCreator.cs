@@ -40,7 +40,7 @@ public class DeckCreator : MonoBehaviour
         }
 
 
-        if (sum == 9) //deck has 40cards
+        if (sum == 40) //deck has 40cards
         {
             for (int i = 0; i <= numberOfCardsInDatabase; i++)
             {

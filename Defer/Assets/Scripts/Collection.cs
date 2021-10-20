@@ -110,7 +110,7 @@ public class Collection : MonoBehaviour
         {
             if (notBeCollection == false)
             {
-                PlayerPrefs.SetInt("x" + i, HowManyCards[i]);
+                PlayerPrefs.SetInt("x"+i, HowManyCards[i]);
             }
             
         }
