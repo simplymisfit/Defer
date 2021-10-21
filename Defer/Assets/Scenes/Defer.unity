@@ -6327,11 +6327,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551479, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3508486946780551479, guid: e12734752c3f7664a81de13968cc9b4f,
-        type: 3}
       propertyPath: m_TagString
       value: Clone
       objectReference: {fileID: 0}
@@ -6343,16 +6338,11 @@ PrefabInstance:
     - target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: thisId
-      value: 0
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
         type: 3}
       propertyPath: cardBack
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
-        type: 3}
-      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3508486946780551483, guid: e12734752c3f7664a81de13968cc9b4f,
