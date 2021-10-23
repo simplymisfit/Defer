@@ -27,6 +27,8 @@ public class TurnSystem : MonoBehaviour
     public static int currentEnemyMana;
     public Text enemyManaText;
 
+    public static bool protectStart;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -43,6 +45,10 @@ public class TurnSystem : MonoBehaviour
 
         seconds = 60;
         timerStart = true;
+
+        protectStart = true;
+
+        StartCoroutine(Protection());
 
     }
 
@@ -168,5 +174,12 @@ public class TurnSystem : MonoBehaviour
             seconds--;
             StartCoroutine(EnemyTimer());
         }
+    }
+
+    IEnumerator Protection()
+    {
+        yield return new WaitForSeconds(6f);
+
+        protectStart = false;
     }
 }

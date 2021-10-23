@@ -179,7 +179,7 @@ public class ThisCard : MonoBehaviour
             this.tag = "Untagged";
 
         }
-        if (TurnSystem.currentMana >= cost && summoned == false  && beInGraveyard == false && TurnSystem.isYourTurn == true)
+        if (TurnSystem.currentMana >= cost && summoned == false  && beInGraveyard == false && TurnSystem.isYourTurn == true && TurnSystem.protectStart == false)
         {
             canBeSummon = true;
         }
