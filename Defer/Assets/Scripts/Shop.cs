@@ -19,12 +19,14 @@ public class Shop : MonoBehaviour
 
     public GameObject morePacksWindow;
 
+    public bool playDuel;
+
     // Start is called before the first frame update
     void Start()
     {
-        gold = 1750;
+        //gold = 1750;
 
-        //gold = PlayerPrefs.GetInt("gold", 1750);
+        gold = PlayerPrefs.GetInt("gold", 1750);
 
         shouldOpen = PlayerPrefs.GetInt("shouldOpen", 0);
 
@@ -37,7 +39,27 @@ public class Shop : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        goldText.text = "Your Gold: " + gold + " $";
+        if (playDuel == false)
+        {
+            goldText.text = "Your Gold: " + gold + " $";
+
+            if (shouldOpen > 0)
+            {
+                StartCoroutine(Wait());
+            }
+
+            showedNumber = shouldOpen + increaser;
+            shouldOpenText.text = "" + showedNumber;
+
+            PlayerPrefs.SetInt("shouldOpen", shouldOpen);
+
+        }
+        else
+        {
+            PlayerPrefs.SetInt("gold", gold);
+        }
+
+        /*goldText.text = "Your Gold: " + gold + " $";
 
         if (shouldOpen > 0)
         {
@@ -47,7 +69,7 @@ public class Shop : MonoBehaviour
         showedNumber = shouldOpen + increaser;
         shouldOpenText.text = "" + showedNumber;
 
-        PlayerPrefs.SetInt("shouldOpen", shouldOpen);
+        PlayerPrefs.SetInt("shouldOpen", shouldOpen);*/
     }
 
     public void BuyPack()

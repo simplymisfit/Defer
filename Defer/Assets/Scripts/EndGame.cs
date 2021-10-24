@@ -8,6 +8,9 @@ public class EndGame : MonoBehaviour
     public Text victoryText;
     public GameObject textObject;
 
+    public GameObject money;
+    public bool gotMoney;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,11 +24,23 @@ public class EndGame : MonoBehaviour
         {
             textObject.SetActive(true);
             victoryText.text = "You lose";
+            if (gotMoney == false)
+            {
+                money.GetComponent<Shop>().gold += 10;
+                gotMoney = true;
+            }
         }
         if (EnemyHp.staticHp <= 0)
         {
             textObject.SetActive(true);
             victoryText.text = "Victory";
+
+            if (gotMoney == false)
+            {
+                money.GetComponent<Shop>().gold += 50;
+                gotMoney = true;
+            }
+            
         }
     }
 }

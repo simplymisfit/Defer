@@ -32,6 +32,8 @@ public class PlayerDeck : MonoBehaviour
     public GameObject concedeWindow;
     public string menu = "Menu";
 
+    public AudioSource audioSource;
+    public AudioClip shuffle, draw;
     // Start is called before the first frame update
 
     void Awake()
@@ -113,13 +115,17 @@ public class PlayerDeck : MonoBehaviour
 
     IEnumerator Example()
     {
-        yield return new WaitForSeconds(1);
-        Clones = GameObject.FindGameObjectsWithTag("Clone");
+        /*        yield return new WaitForSeconds(1);
+                Clones = GameObject.FindGameObjectsWithTag("Clone");
 
-        foreach(GameObject Clone in Clones)
-        {
-            Destroy(Clone);
-        }
+                foreach(GameObject Clone in Clones)
+                {
+                    Destroy(Clone);
+                }*/
+
+        GameObject prefb = Instantiate(CardBack, transform.position, transform.rotation);
+        yield return new WaitForSeconds(1.5f);
+        Destroy(prefb);
     }
 
     IEnumerator StartGame()
@@ -127,6 +133,9 @@ public class PlayerDeck : MonoBehaviour
        for (int i = 0; i <= 4; i++)
         {
             yield return new WaitForSeconds(1);
+
+            audioSource.PlayOneShot(draw, 1f);
+
             Instantiate(CardToHand, transform.position, transform.rotation);
 
         }
@@ -143,6 +152,10 @@ public class PlayerDeck : MonoBehaviour
             deck[randomIndex] = container[0];
         }
 
+        audioSource.PlayOneShot(shuffle, 1f);
+
+        StartCoroutine(Example());
+
        // Instantiate(CardBack, transform.position, transform.rotation);
         //StartCoroutine(Example());
 
@@ -152,6 +165,9 @@ public class PlayerDeck : MonoBehaviour
         for (int i=0; i < x; i++)
         {
             yield return new WaitForSeconds(1);
+
+            audioSource.PlayOneShot(draw, 1f);
+
             Instantiate(CardToHand, transform.position, transform.rotation);
         }
     }
