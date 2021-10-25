@@ -41,12 +41,14 @@ public class TurnSystem : MonoBehaviour
 
                 startTurn = false;*/
 
-        StartGame();
+        //StartGame();
 
         seconds = 60;
         timerStart = true;
 
         protectStart = true;
+
+        StartGame();
 
         StartCoroutine(Protection());
 
@@ -112,6 +114,9 @@ public class TurnSystem : MonoBehaviour
         currentEnemyMana = maxEnemyMana;
 
         AI.draw = false;
+
+        timerStart = true;
+        seconds = 60;
     }
 
     public void EndYourOpponentTurn()
@@ -123,6 +128,9 @@ public class TurnSystem : MonoBehaviour
         currentMana = maxMana;
 
         startTurn = true;
+
+        timerStart = true;
+        seconds = 60;
     }
     public void StartGame()
     {
@@ -158,9 +166,11 @@ public class TurnSystem : MonoBehaviour
 
     IEnumerator Timer()
     {
-        if(isYourTurn == true && seconds > 0)
+        yield return new WaitForSeconds(1);
+
+        if (isYourTurn == true && seconds > 0)
         {
-            yield return new WaitForSeconds(1);
+            //yield return new WaitForSeconds(1);
             seconds--;
             StartCoroutine(Timer());
         }
@@ -168,9 +178,11 @@ public class TurnSystem : MonoBehaviour
 
     IEnumerator EnemyTimer()
     {
+        yield return new WaitForSeconds(1);
+
         if (isYourTurn == false && seconds > 0)
         {
-            yield return new WaitForSeconds(1);
+            //yield return new WaitForSeconds(1);
             seconds--;
             StartCoroutine(EnemyTimer());
         }

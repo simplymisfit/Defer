@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+using UnityEngine.SceneManagement;
+
 public class EndGame : MonoBehaviour
 {
     public Text victoryText;
@@ -10,6 +12,9 @@ public class EndGame : MonoBehaviour
 
     public GameObject money;
     public bool gotMoney;
+
+    public string menu;
+    public bool protect;
 
     // Start is called before the first frame update
     void Start()
@@ -24,10 +29,17 @@ public class EndGame : MonoBehaviour
         {
             textObject.SetActive(true);
             victoryText.text = "You lose";
+
             if (gotMoney == false)
             {
                 money.GetComponent<Shop>().gold += 10;
                 gotMoney = true;
+            }
+
+            if (protect == false)
+            {
+                StartCoroutine(ReturnToMenu());
+                protect = true;
             }
         }
         if (EnemyHp.staticHp <= 0)
@@ -40,7 +52,20 @@ public class EndGame : MonoBehaviour
                 money.GetComponent<Shop>().gold += 50;
                 gotMoney = true;
             }
-            
+
+            if (protect == false)
+            {
+                StartCoroutine(ReturnToMenu());
+                protect = true;
+            }
+
         }
     }
+
+    IEnumerator ReturnToMenu()
+    {
+        yield return new WaitForSeconds(4f);
+        SceneManager.LoadScene(menu);
+    }
+
 }

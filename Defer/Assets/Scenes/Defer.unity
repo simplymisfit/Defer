@@ -2419,6 +2419,76 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436754206}
   m_CullTransparentMesh: 1
+--- !u!1 &452576874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 452576877}
+  - component: {fileID: 452576876}
+  - component: {fileID: 452576875}
+  m_Layer: 0
+  m_Name: Arrow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &452576875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452576874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79ba7d02fa6ec1e4ea188bc9d859fb97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: []
+  point: {fileID: 8032130824338380587, guid: 41b7aa4eb891e6144bb20833cbe673cf, type: 3}
+  arrow: {fileID: 4963961582478295068, guid: 12aa3a904a67fa14bb7ce66847a423f6, type: 3}
+  numberOfPoints: 10
+  distance: 0
+  direction: {x: 0, y: 0}
+  force: 50
+--- !u!114 &452576876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452576874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79ba7d02fa6ec1e4ea188bc9d859fb97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: []
+  point: {fileID: 0}
+  arrow: {fileID: 0}
+  numberOfPoints: 0
+  distance: 0
+  direction: {x: 0, y: 0}
+  force: 0
+--- !u!4 &452576877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452576874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1055.5308, y: 555.7113, z: -2467.9917}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &492251654
 GameObject:
   m_ObjectHideFlags: 0
@@ -9650,6 +9720,8 @@ MonoBehaviour:
   textObject: {fileID: 173743459}
   money: {fileID: 298421338}
   gotMoney: 0
+  menu: Menu
+  protect: 0
 --- !u!1 &1679172228
 GameObject:
   m_ObjectHideFlags: 0

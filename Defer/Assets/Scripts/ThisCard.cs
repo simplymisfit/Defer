@@ -320,6 +320,8 @@ public class ThisCard : MonoBehaviour
                     EnemyHp.staticHp -= attack;
                     targeting = false;
                     cantAttack = true;
+
+                    Arrow._Hide = true;
                 }
             }
             else
@@ -348,6 +350,11 @@ public class ThisCard : MonoBehaviour
     public void StartAttack()
     {
         staticTargeting = true;
+        if (canAttack == true)
+        {
+            Arrow._Show = true;
+            Arrow.startPoint = transform.position;
+        }
     }
     public void StopAttack()
     {
