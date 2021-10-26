@@ -14,12 +14,13 @@ public class Menu : MonoBehaviour
 
     public string menu;
 
-
+    public AudioSource audioSource;
+    public AudioClip click, welcome;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource.PlayOneShot(welcome, 1f);
     }
 
     // Update is called once per frame
@@ -31,6 +32,7 @@ public class Menu : MonoBehaviour
     public void LoadPlay()
     {
         SceneManager.LoadScene(play);
+        audioSource.PlayOneShot(click, 1f);
     }
     public void LoadDeck()
     {

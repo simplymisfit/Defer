@@ -21,10 +21,14 @@ public class Shop : MonoBehaviour
 
     public bool playDuel;
 
+    public AudioSource audioSource;
+    public AudioClip dollar;
+
     // Start is called before the first frame update
     void Start()
     {
         //gold = 1750;
+        audioSource.PlayOneShot(dollar, 1f);
 
         gold = PlayerPrefs.GetInt("gold", 1750);
 
@@ -79,7 +83,6 @@ public class Shop : MonoBehaviour
             gold -= 100;
 
             PlayerPrefs.SetInt("gold", gold);
-
             SceneManager.LoadScene("OpenPack");
         }
     }

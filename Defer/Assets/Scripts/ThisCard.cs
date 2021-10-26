@@ -401,6 +401,7 @@ public class ThisCard : MonoBehaviour
                 }
             }
         }
+        Arrow._Hide = true;
     }
     public void Return(int x)
     {
