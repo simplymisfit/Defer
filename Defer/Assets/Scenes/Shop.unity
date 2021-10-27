@@ -1095,7 +1095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goldText: {fileID: 1477973805}
-  gold: 1500
+  gold: 1000
   shouldOpen: 0
   showedNumber: 0
   increaser: 0
@@ -1104,7 +1104,6 @@ MonoBehaviour:
   playDuel: 0
   audioSource: {fileID: 744346637}
   dollar: {fileID: 8300000, guid: f474fcd82b6703c42bd6c8813afa6e2c, type: 3}
-  click: {fileID: 8300000, guid: 047390d2138d21e4b806862f54aba92e, type: 3}
 --- !u!1 &563667252
 GameObject:
   m_ObjectHideFlags: 0

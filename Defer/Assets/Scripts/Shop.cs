@@ -27,10 +27,11 @@ public class Shop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gold = PlayerPrefs.GetInt("gold", 1750);
         //gold = 1750;
         audioSource.PlayOneShot(dollar, 1f);
 
-        gold = PlayerPrefs.GetInt("gold", 1750);
+        
 
         shouldOpen = PlayerPrefs.GetInt("shouldOpen", 0);
 
